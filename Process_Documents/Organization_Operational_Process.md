@@ -8,7 +8,7 @@ It section contains notes that should be deleted once the customization is compl
 ## Terminology and Conventions
 
 ### Language
-The default language for writting documentation is the American English, English (United States).
+The default language for writing documentation is American English, English (United States).
 
 ### Conventions
 The keywords “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”, “MAY”, and “OPTIONAL” in this document are to be interpreted as described in [RFC2119].
@@ -17,7 +17,6 @@ The keywords “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL N
 
 **MUST**:
 This word, or the terms "REQUIRED" or "SHALL", mean that the definition is an absolute requirement of the specification.
-
 	
 **SHOULD**:
 This word, or the adjective "RECOMMENDED", mean that there may exist valid reasons in particular circumstances to ignore a particular item, but the full implications must be understood and carefully weighed before choosing a different course.
@@ -52,7 +51,7 @@ Every term used in the document should be defined in this section.
     </tr>
     <tr>
 	<td><strong>Issue(s)</strong></td>
-	<td>An important topic or problem for debate or discussion. Normally, in  Issues are tracked in Github.</td>
+	<td>An important topic or problem for debate or discussion. Normally Issues are tracked in Github.</td>
     </tr>
     <tr>
 	<td><strong>Maintainer</strong></td>
