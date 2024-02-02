@@ -8,7 +8,7 @@ It section contains notes that should be deleted once the customization is compl
 ## Terminology and Conventions
 
 ### Language
-The default language for writting documentation is the American English, English (United States).
+The default language for writing documentation is American English, English (United States).
 
 ### Conventions
 The keywords “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”, “MAY”, and “OPTIONAL” in this document are to be interpreted as described in [RFC2119].
@@ -17,7 +17,6 @@ The keywords “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL N
 
 **MUST**:
 This word, or the terms "REQUIRED" or "SHALL", mean that the definition is an absolute requirement of the specification.
-
 	
 **SHOULD**:
 This word, or the adjective "RECOMMENDED", mean that there may exist valid reasons in particular circumstances to ignore a particular item, but the full implications must be understood and carefully weighed before choosing a different course.
@@ -52,7 +51,7 @@ Every term used in the document should be defined in this section.
     </tr>
     <tr>
 	<td><strong>Issue(s)</strong></td>
-	<td>An important topic or problem for debate or discussion. Normally, in  Issues are tracked in Github.</td>
+	<td>An important topic or problem for debate or discussion. Normally Issues are tracked in Github.</td>
     </tr>
     <tr>
 	<td><strong>Maintainer</strong></td>
@@ -108,7 +107,7 @@ Every term used in the document should be defined in this section.
     </tr>
     <tr>
 	<td><strong>Working Group</strong></td>
-	<td>A group of expertes working together to achieve predefined objectives. The group formalize its objectives and goals in a formal document, the Working Group Charter.</td>
+	<td>A group of experts working together to achieve predefined objectives. The group formalize its objectives and goals in a formal document, the Working Group Charter.</td>
     </tr>
     <tr>
 	<td><strong>Working Group Maintainer</strong></td>
@@ -143,7 +142,7 @@ When people gather to discuss Technical Requirements they tend to use the same t
   </tr>	
   <tr>
     <td>IPR</td>
-    <td>Intelectual Property Rights</td>
+    <td>Intellectual Property Rights</td>
   </tr>	
   <tr>
     <td>WG</td>
@@ -216,7 +215,7 @@ Note: please update the placeholders marked as `X` with your own input.
 * The Steering Committee is comprised of a representative of the founding members of the Organization and it has a single primary member representing each company.
 * Each Steering Committee meeting is called on a regular interval, although this interval can be ad-hoc as long as the proper notice is given.
 * Proper notice of the Steering Committee (SC) meeting is given to its representatives including an agenda with the topics to be voted by the SC having been prepared with a proper notice period, typically one week.
-* A meeting of the Steering Committee makers should has a quorum of `X` Steering Committee participants.
+* A meeting of the Steering Committee makers should have a quorum of `X` Steering Committee participants.
 * Motions are made and accepted by a vote of the designated Steering Committee members. Members may debate the motion, make changes if thought fit, accept or reject the motion. It is an important principle that there is an opportunity for questions and clarifications of the motion in the process. 
 * The votes are taken only by the appointed representatives of the Steering Committee.
 * Minutes of the meeting are taken to record the attendance, votes and their outcomes. 
@@ -330,7 +329,7 @@ Note: Please update the Membership Benefits table below based on your Organizati
     </tr>
   </thead>
   <tbody>
-      <tr>
+    <tr>
         <td colspan="5"><strong>Pricing</strong></td>
     </tr>
     <tr>
@@ -539,7 +538,7 @@ Inspired by American National Standards Institute’s (ANSI) Essential Requireme
 3.6. Written procedures. This governance document and other materials documenting the Community Specification development process shall be available to any interested person.
 ```
 
-As part of their responsibilities defined in [from WG Maintainers](#from-wg-maintainers), Maintaniers need to ensure efficient and effective decision-making:
+As part of their responsibilities defined in [from WG Maintainers](#from-wg-maintainers), Maintainers need to ensure efficient and effective decision-making:
 * The decision making process in WGs is intended to be as inclusive as possible. 
 * WGs shall attempt to use consensus to make decisions. 
 * If consensus cannot be reached, voting mechanisms MAY be used. 
@@ -859,7 +858,7 @@ There are at least three different options to publish content using GitHub:
   </tbody>
 </table>
 
-## Intelectual Property Rights
+## Intellectual Property Rights
 
 ### Copyright
 This section provides a recommendation based on the best practice implemented by other projects.
@@ -872,7 +871,7 @@ Instead, many LF Project communities recommend using a more general statement in
 * `Copyright The [Organization_Name] Contributors.`
 * `Copyright Contributors to the XYZ project.`
 
-These statements are intended to communicate the followig:
+These statements are intended to communicate the following:
 
 * the work is copyrighted;
 * the contributors of the code licensed it, but retain ownership of their copyrights; and
