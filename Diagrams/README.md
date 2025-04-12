@@ -40,6 +40,7 @@ Each diagram can be modified to reflect the unique context of your organization 
 2. Navigate through the diagram pages using the page tab menu.
 3. Customize the diagrams with your group names, review periods, or governance roles.
 4. Export diagrams as PNG, SVG, or PDF for documentation or presentation purposes.
+5. Save the changes back into the `open-standards.drawio` file and submit a Pull Request with the new chagnes.
 
 ## 📄 License
 
