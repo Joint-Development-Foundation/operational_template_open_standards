@@ -1,185 +1,137 @@
-## Organization Operational Document
-
-The scope of the document is to provide a set of practical rules that you can adapt and evolve as you see fit. 
-
-The document is a template that needs to be customized for each Organization.
-It section contains notes that should be deleted once the customization is completed.
-
-## Terminology and Conventions
-
-### Language
-The default language for writing documentation is American English, English (United States).
-
-### Conventions
-The keywords “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”, “MAY”, and “OPTIONAL” in this document are to be interpreted as described in [RFC2119].
-
-> Note: It is recommended to use the following terminology when writing Technical Specifications:
-
-**MUST**:
-This word, or the terms "REQUIRED" or "SHALL", mean that the definition is an absolute requirement of the specification.
-	
-**SHOULD**:
-This word, or the adjective "RECOMMENDED", mean that there may exist valid reasons in particular circumstances to ignore a particular item, but the full implications must be understood and carefully weighed before choosing a different course.
-
-**MAY**:
-This word, or the adjective "OPTIONAL", mean that an item is truly optional.  One vendor may choose to include the item because a particular marketplace requires it or because the vendor feels that  it enhances the product while another vendor may omit the same item. An implementation which does not include a particular option MUST be prepared to interoperate with another implementation which does include the option, though perhaps with reduced functionality. In the same vein an implementation which does include a particular option MUST be prepared to interoperate with another implementation which  does not include the option (except, of course, for the feature the  option provides.)
-
-
-
-### Definitions
+# {{PROJECT-NAME}} Operational Process Document
 
 ```
-Note: To Be Deleted
-
-Every term used in the document should be defined in this section.
+Note: This document is a template that needs to be customized for your Organization.
+Section notes should be deleted once customization is complete. Content in braces or italics denotes other areas for updating.
 ```
 
-<table>
-  <caption>Definitions</caption>
-  <tbody>
-    <tr>
-	<td><strong>Committee Team</strong></td>
-	<td>A group chartered by the Steering Committee to perform specific support tasks</td>
-    </tr>
-    <tr>
-	<td><strong>Editor(s)</strong></td>
-	<td>A member of a Working Group who is responsible to edit and maintain a document.</td>
-    </tr>
-    <tr>
-	<td><strong>e-Vote</strong></td>
-	<td>Electronic Vote.</td>
-    </tr>
-    <tr>
-	<td><strong>Issue(s)</strong></td>
-	<td>An important topic or problem for debate or discussion. Normally Issues are tracked in Github.</td>
-    </tr>
-    <tr>
-	<td><strong>Maintainer</strong></td>
-	<td>A member of the Organization that has been selected by the Working Group as a coordinator for the Working Group activies. </br> 
-  A Maintainer is the person (or persons) *responsible for the direction or movement* of an Organization Working Group. He/she/they are committed to improving, driving, and ensuring an outcome.</br>
-  A Maintainer doesn’t necessarily have to be someone who writes the data specification. It could be someone who’s done a lot of work evangelizing the Organization, or written documentation that made the Organization more accessible to others. Regardless of what they do day-to-day, a Maintainer is probably someone who feels responsibility over the direction of the project and is committed to improving it.</br>
-  A maintainer is the final control point for contributions to an specification. Typically Pull Requests will be proposed but members and approve by the working group following consensus rules. The maintainer ensures the contribution rules are followed and that consensus has been met, especially for controversial or disputed contributions. The maintainer(s) should be the ones that merge the PR into the baseline .</td>
-    </tr>
-    <tr>
-	<td><strong>Member(s)</strong></td>
-	<td>A person that belongs to a company that has signed the Organization Membership Application, Project and Working Group Charter(s)
-  </td>
-    </tr>	  
-    <tr>
-	<td><strong>Membership Application</strong></td>
-	<td>A document that provides legal information about rights and obligations of being a member company of Organization.</td>
-    </tr>
-    <tr>
-	<td><strong>Participant</strong></td>
-	<td>A Participant is any individual creating content or commenting on an Issue or Pull Request.</td>
-    </tr>
-    <tr>
-	<td><strong>Project Charter</strong></td>
-	<td>A legal document that describes the Organization Project.</td>
-    </tr>
-    <tr>
-	<td><strong>Pull Request</strong></td>
-	<td>It indicates what changes are suggested to a branch in a repository on GitHub.</td>
-    </tr>
-    <tr>
-	<td><strong>Release</strong></td>
-	<td>It is the distribution of the final version of a document or application.</td>
-    </tr>	  
-    <tr>
-	<td><strong>Review & Approval</strong></td>
-	<td>A special process that is used to convey agreement or disagrement on a topic. </td>
-    </tr>
-    <tr>
-	<td><strong>Semantic Versioning</strong></td>
-	<td>It is a versioning scheme to convey backwards or not backwards compatibility of a release.</td>
-    </tr>
-    <tr>
-	<td><strong>Source Code</strong></td>
-	<td> It is any collection of code, with or without comments, written using a human-readable programming language, usually as plain text.</td>
-    </tr>	  
-    <tr>
-	<td><strong>Specification(s)</strong></td>
-	<td>An act of describing or identifying something precisely or of stating a precise requirement.</td>
-    </tr>	  
-    <tr>
-	<td><strong>Steering Committee</strong></td>
-	<td>A committee that decides on the priorities or order of business of the Organization</i>. </td>
-    </tr>
-    <tr>
-	<td><strong>Working Group</strong></td>
-	<td>A group of experts working together to achieve predefined objectives. The group formalize its objectives and goals in a formal document, the Working Group Charter.</td>
-    </tr>
-    <tr>
-	<td><strong>Working Group Maintainer</strong></td>
-	<td>A person selected by the Working Group which primary role is to facilitate consensus-building among the group members.</td>
-    </tr>	  
-    <tr>
-	<td><strong>Working Group Charter</strong></td>
-	<td>A document that contains the scope, objectives and goals of a particular group. </td>
-    </tr>
-    <tr>
-	<td><strong>Work Package</strong></td>
-	<td>It is a group of related tasks within a project. Each Work Package can be broken down into one or more groups.</td>
-    </tr>	  
-  </tbody>
-</table>
+**Adopted on: __________**
 
-```
-Note: It is recommended to create an Organization Dictionary that contains the technical definitions used by the Organization. 
-
-When people gather to discuss Technical Requirements they tend to use the same terminology but the meaning may differ. An Organization Dictonary will assist existing an new members to clearly understand the terminology used by the Organization.
-
-```
-
-### Abbreviations
-
-<table>
-<caption>Definitions</caption>
-<tbody>
-  <tr>
-    <td>AD</td>
-    <td>Architecture Document</td>
-  </tr>	
-  <tr>
-    <td>IPR</td>
-    <td>Intellectual Property Rights</td>
-  </tr>	
-  <tr>
-    <td>WG</td>
-    <td>Working Group</td>
-  </tr>
-  <tr>
-    <td>PR</td>
-    <td>Pull Request</td>
-  </tr>	
-  <tr>
-    <td>REQ</td>
-    <td>Requirements</td>
-  </tr>		
-  <tr>
-    <td>RD</td>
-    <td>Requirement Document</td>
-  </tr>	
-  <tr>
-    <td>SUP</td>
-    <td>Supporting Document</td>
-  </tr>	
-  <tr>
-    <td>TS</td>
-    <td>Technical Specification</td>
-  </tr>
-    <tr>
-    <td>TSC</td>
-    <td>Technical Steering Committee</td>
-  </tr>
-</tbody>
-</table>
+**Table of Contents**
+- Introduction
+- Governance
+ - {{PROJECT-NAME}} Organizational Structure
+ - Roles & Expectations
+ - Meeting Policy
+ - Guidelines for Decision-Making
+- Specification Development and Release Management Process
+ - Git-based Development Flow 
+- Final Publication and Advancement Guidelines
+ - Notice Requirements and IPR Review Guidelines
+- Additional Resources and Reference Materials
 
 ## Introduction
 
+This Operational Process Document is a living document that outlines the core procedures, roles, and decision-making processes that guide the day-to-day activities of the {{PROJECT_NAME}} community. It is designed to promote transparency, accountability, and consistency in how the project operates, collaborates, and evolves over time.
+
+Upon Approval of the Steering Committee, this document may be updated periodically to reflect the changing needs of the project and its participants. Updates should be proposed through the project’s defined decision-making process and tracked via version control.
+
 ## Governance
 
-### Membership Levels
+```
+Note: Select one of the following options based on your project's hosting structure. Delete the option you do not use.
+```
+*Option 1 - Community Specification Licensed Projects*
+{{PROJECT-NAME}} is a Community Specification License project hosted by {{LEGAL-PARENT}}. Its Governance policy is as set forth in the GOVERNANCE.md file of the Project repositories. In the event of a conflict or inconsistency, the documents shall control in the following order of precedence (from highest to lowest): the terms of the Community Specification License, the {{LEGAL-PARENT}} Technical Project Charter and Series Agreement, and any policies or procedures adopted by the Project as outlined in this Process Document.
+
+*Option 2 - Joint Development Foundation Traditional Mode Projects*
+{{PROJECT-NAME}} is hosted by the Joint Development Foundation. Its Governance policy is as set forth in the Project's Membership Agreement. In the event of a conflict or inconsistency, the documents shall control in the following order of precedence (from highest to lowest): the Membership Agreement, the Project Charter, the Working Group Charter, and any policies or procedures adopted by the Steering Committee as outlined in this Process Document.
+
+### {{PROJECT-NAME}} Organizational Structure
+
+```
+Note: Replace this example diagram with your own Organization organigram. 
+```
+
+<figure>
+	<img src="images/organigram.svg" alt="{{PROJECT-NAME}} Organigram">
+	<figcaption>{{PROJECT-NAME}} Organigram</figcaption>
+</figure>
+
+```
+Note: The content in this section should not be an exhaustive description of each group, but rather a summary that provides pointers for newcomers or those looking for more information. 
+```
+
+#### Steering Committee *(JDF Projects Only)*
+
+The Steering Committee is the body that is responsible for governing the Project, including approving Final Deliverables as a consensus product of the Working Groups. It also approves the formation of new project Working Groups or sub-committees.
+
+**Steering Committee Composition**
+**Steering Committee Meeting Information**
+**Steering Committee Mailing List Information**
+**Steering Committee Workspaces**
+
+* The Steering Committee is comprised of a representative of the founding members of the Organization and it has a single primary member representing each company.
+* Each Steering Committee meeting is called on a regular interval, although this interval can be ad-hoc as long as the proper notice is given.
+* Proper notice of the Steering Committee (SC) meeting is given to its representatives including an agenda with the topics to be voted by the SC having been prepared with a proper notice period, typically one week.
+* A meeting of the Steering Committee makers should have a quorum of `X` Steering Committee participants.
+* Motions are made and accepted by a vote of the designated Steering Committee members. Members may debate the motion, make changes if thought fit, accept or reject the motion. It is an important principle that there is an opportunity for questions and clarifications of the motion in the process. 
+* The votes are taken only by the appointed representatives of the Steering Committee.
+* Minutes of the meeting are taken to record the attendance, votes and their outcomes. 
+ 
+#### Working Group(s)
+
+```
+Note: Select one of the following options based on your project's hosting structure. Delete the option you do not use.
+```
+*Option 1 - Community Specification Licensed Projects*
+The Working Group is the primary governing body for the project and is responsible for developing specifications, standards, best practices, guidelines, and other similar materials under the Community Specification License.
+
+  * **Brief Description of Scope:** see SCOPE.md
+  * **Link to Charter:** see GOVERNANCE.md and LICENSE.md
+  * **Link to Meeting Information:** see README.md
+  * **Link to Mailing List Information:** see README.md
+  * **Link to  Workspaces:** see CONTRIBUTING.md
+  * **How to Join:** see CONTRIBUTING.md
+
+*Option 2 - Joint Development Foundation Traditional Mode Projects*
+The Project may have multiple Working Groups, and each Working Group will work within their defined scope on certain deliverables as set forth in its Working Group Charter. Changes to a Working Group Charter must be approved by the Steering Committee.
+
+```
+Note: This section should be updated each time a new Working or Sub-Working Group is added or removed.
+```
+
+* {{PROJECT-NAME}} has the following Working Groups:
+  * Working Group Name 1
+    * **Brief Description of Scope:**
+    * **Link to Charter:**
+    * **Link to Meeting Information:**
+    * **Link to Mailing List Information:**
+    * **Link to  Workspaces:**
+    * **How to Join:**
+  * Working Group Name 2
+    * **Brief Description of Scope:**
+    * **Link to Charter:**
+    * **Link to Meeting Information:**
+    * **Link to Mailing List Information:**
+    * **Link to  Workspaces:**
+    * **How to Join:**
+
+#### Project Committee(s) *(Optional)*
+
+The Project may have multiple Working Groups, and each Working Group will work within their defined scope on certain deliverables as set forth in its Working Group Charter. Changes to a Working Group Charter must be approved by the Steering Committee.
+```
+Note: It is normal that Organizations have one or more Committee Teams, e.g. Marketing and or Strategy Teams.
+In this section we provide a template listing different Marketing responsibilities. 
+Please update this section as you see fit.
+```
+```
+Note: This section should be updated each time a new Working or Sub-Working Group is added or removed.
+```
+
+* Each Steering Member will be represented in the Marketing Committee Team by one representative only. 
+* The Marketing Team 1 typically focuses on the following:
+  * manages internal and external communications;
+  * is responsible for press releases;
+  * maintenance of the website;
+  * coordinates participation at congresses; and
+  * manages the communication strategy.
+
+
+
+### Roles & Expectations
+
+#### Membership Levels
 
 ```
 Note: Provide a list of Membership Levels:
@@ -193,65 +145,6 @@ The Organization Membership Levels are:
 
 See [Membership Benefits](#membership-benefits)
 
-### Organization Structure
-
-```
-Note: Replace this example diagram with your own Organization organigram. Here you can see how some Groups add Sub-Working Groups pending from the Working Groups or Committee Teams pending from the Technical Steering Committee.
-```
-
-<figure>
-	<img src="images/organigram.svg" alt="Organization Organigram">
-	<figcaption>Organization Organigram</figcaption>
-</figure>
-
-#### Technical Steering Committee
-
-One of the more important duties of the Technical Steering Committee (TSC) - or Steering Committee as a short name - is the approval of the Specifications and other works produced as a consensus product of the Working Groups. 
-
-```
-Note: please update the placeholders marked as `X` with your own input.
-```
-
-* The Steering Committee is comprised of a representative of the founding members of the Organization and it has a single primary member representing each company.
-* Each Steering Committee meeting is called on a regular interval, although this interval can be ad-hoc as long as the proper notice is given.
-* Proper notice of the Steering Committee (SC) meeting is given to its representatives including an agenda with the topics to be voted by the SC having been prepared with a proper notice period, typically one week.
-* A meeting of the Steering Committee makers should have a quorum of `X` Steering Committee participants.
-* Motions are made and accepted by a vote of the designated Steering Committee members. Members may debate the motion, make changes if thought fit, accept or reject the motion. It is an important principle that there is an opportunity for questions and clarifications of the motion in the process. 
-* The votes are taken only by the appointed representatives of the Steering Committee.
-* Minutes of the meeting are taken to record the attendance, votes and their outcomes. 
- 
- Note:
-> Specifications, especially important specifications, are subject to challenges from others. Having a well understood, well documented, and neutral process for their creation and approval demonstrates consistency in process and makes the challenges much more complicated for those who might try to make mischief in the future.
-
-#### Marketing Team
-
-```
-Note: It is normal that Organizations have one or more Committee Teams, e.g. Marketing and or Strategy Teams.
-In this section we provide a template listing different Marketing responsibilities. 
-Please update this section as you see fit.
-```
-
-* Each Steering Member will be represented in the Marketing Committee Team by one representative only. 
-* The Marketing Team 1 typically focuses on the following:
-  * manages internal and external communications;
-  * is responsible for press releases;
-  * maintenance of the website;
-  * coordinates participation at congresses; and
-  * manages the communication strategy.
-
-#### Working Groups (WG)
-```
-Note: Please list all the Working & Sub-Working Groups inside of the Organization.
-This section should be updated each time that a new Working or Sub-Working Group is added or removed it.
-```
-* Working Groups (WGs) are chartered by the Steering Committee to handle one or more [Work Packages](#work-packages)
-* The Organization has the following Working Groups:
-  * Working Group Name 1
-  * Working Groupo Name 2
-    * Sub-Working Group Name 1
-
-## Organization Roles
-
 ```
 Note: It is important to provide a description of what is expected from each Organization role.
 ```
@@ -259,7 +152,7 @@ Note: It is important to provide a description of what is expected from each Org
 * [Editors](#editors)
 * [Maintainer(s)](#maintainers)
 
-### Participants
+#### Participants
 Note:
 > A Participant is any individual creating content or commenting on an issue or pull request.
 
@@ -272,7 +165,7 @@ Note:
 1.3. Participants. “Participants” are those that have made Contributions to the Working Group subject to the Community Specification License.
 ```
 
-### Editors
+#### Editors
 Note:
 > An Editor is a subset of Participants who have been given write access to the repository. They will advance the day-to-day evolution of the specification
 
@@ -285,7 +178,7 @@ Each Working Group will designate an Editor or Editors for that Working Group.
 A Working Group may select a new Editor or Editors upon Approval of the Working Group Participants.
 ```
 
-### Maintainers
+#### Maintainers
 
 >Note: from [Scope & Governance]() Document
 
@@ -311,7 +204,7 @@ A Working Group may select a new Editor or Editors upon Approval of the Working 
 * The Maintainer SHOULD keep communications with the members via GitHub Issues or Pull Requests rather than one to one communications
 * The Maintainer SHOULD close contributions that do not follow the rules, or meet the right quality or are related to features that are in the scope of the Release Version under development
 
-## Membership Benefits
+#### Membership Benefits
 
 ```
 Note: Please update the Membership Benefits table below based on your Organization views. Alternatively, this table could be moved to the Organization website.
@@ -478,7 +371,7 @@ Note: Please update the Membership Benefits table below based on your Organizati
   </tbody>
 </table>
 
-## Meetings
+### Meeting Policy
 
 ```
 Note: Effective group meetings allow the Steering Committee, Committee Teams and Working Groups to discuss complex issues and talk through ideas and solutions. It is recommended to keep a Meeting Minutes record for each meeting.
@@ -489,14 +382,14 @@ Note: Effective group meetings allow the Steering Committee, Committee Teams and
 * Meetings SHALL have an antitrust statement and an IPR call where a reminder of the IPR policy and the duties and obligations of members is provided.
 * A meeting attendee list MUST be produced for each meeting. This is necessary to determine which members can vote in a Supermajority vote.
 
-### Meeting Agenda
+#### Meeting Agenda
 
 ```
 Note: An effective Meeting Agenda enable teams to organize its topics and give a fair chance for every topic to be discussed.
 ```
 * Please refer to the Organization Agenda & Meeting Minutes [Template]()
 
-### Meeting Minutes
+#### Meeting Minutes
 
 ``` 
 Note: It is important to record the key issues discussed during the meeting, motions proposed or voted, and activities to be undertaken.
@@ -506,8 +399,8 @@ It is recommended to define an Agenda & Meeting Minutes template.
 ```
 * Please refer to the Organization Agenda & Meeting Minutes [Template]()
 
-## Technical Decision Making
-### Decision Making
+### Guidelines for Decision-Making
+#### Decision Making
 
 ```
 Note: the following bullet points needs to be reviewed by the group: 3.1, 3.1 and 3.2 
@@ -557,14 +450,14 @@ As part of their responsibilities defined in [from WG Maintainers](#from-wg-main
 * Proposals SHALL be available for a given period. 
 
 
-### Seeking Consensus
+#### Seeking Consensus
 * Groups shall endeavour to reach consensus on all decisions. 
 * Informal methods of reaching consensus are encouraged (e.g. a show of hands).
 * Groups SHOULD attempt to ensure contributions relating to the same subject matter are considered together before being disposed. 
 * However the Maintainer SHALL ensure that progress is not delayed by unavailable contributions or participants.
 * Agreement SHALL be sought in all forms of meeting.
 
-### Handling objections when seeking consensus
+#### Handling objections when seeking consensus
 * Objections from a small minority SHOULD be minuted and the objecting delegates SHOULD be questioned if having their objections minuted is sufficient and they agree to not sustain their objections. 
   * If such agreements are secured, then there is consensus for approving the proposal. 
   * If such agreements are not secured, then the proposal is not agreed and further action SHALL be taken (e.g. the proposal is withdrawn, updated, or voted on). 
@@ -582,8 +475,8 @@ As part of their responsibilities defined in [from WG Maintainers](#from-wg-main
   * Using GitHub "Review and Approval" label
 * Proposals SHALL be available for a given period.
 
-## Using Supermajority vote to achieve agreement 
-### Phrasing of Voting Questions
+#### Using Supermajority vote to achieve agreement 
+##### Phrasing of Voting Questions
 * The Maintainer ensures that questions to be voted upon SHALL be phrased in a concise and unambiguous manner. 
 * Questions SHOULD NOT be phrased as the “The group SHALL not do xyz”. Examples of appropriate questions are:
   * SHALL the group agree the Specification?
@@ -595,7 +488,7 @@ As part of their responsibilities defined in [from WG Maintainers](#from-wg-main
 * The option receiving no less than **3/4** of the Supermajority Votes SHALL be the decision of the group.
 * If the issue is to choose between three or more options, the group SHOULD use informal voting to reduce the number of options to two, and then use formal voting, if necessary.
 
-### Voting on Technical Issues
+#### Voting on Technical Issues
 
 Note: Supermajority Vote
 
@@ -615,7 +508,10 @@ Note: Define Supermajority
   * Teleconference meetings require at least 7 days prior written notice
   * Electronic voting MUST remain open for no less than 7 days.
 
-## Approval Process
+
+## Specification Development and Release Management Process
+
+#### Approval Process
 <figure>
 	<img src="images/R_A-1.svg" alt="Review & Approval">
 	<figcaption>Review & Approval</figcaption>
@@ -628,7 +524,7 @@ The goal for an SDO is to reach interoperability, therefore “forking” is not
 The Review & Approval process implies that all the contributions need to be accepted by the Working Group.
 
 
-### Review & Approval Process
+#### Review & Approval Process
 * **Review period**:
     * Period of time during which the contribution will be under review before being merged.
       * The period can be: 0, 1, 2, 3, 5, 7, 14 days
@@ -648,9 +544,9 @@ The Review & Approval process implies that all the contributions need to be acce
     * If a sustained **objection** is received, the contribution cannot be merged, even if 3 or more contributors agreed with the contribution. 
     * If during the review period a contribution receives a **comment**, it is up to the group or maintainer to accept the comment or not. In any case, in order to merge the contribution at least 3 reviewers MUST indicate that they agree with the contribution.
 
-## [Organization_Abbreviation] Process Flows
+#### [Organization_Abbreviation] Process Flows
 
-### Work Packages
+#### Work Packages
 
 <figure>
 	<img src="images/breakdown.svg" alt="[Organization_Abbreviation] Work Units">
@@ -668,7 +564,7 @@ The Review & Approval process implies that all the contributions need to be acce
 * The WG SHOULD define a placeholder for each Epic with few lines of description
 * The Epics can be broken down in user stories and tasks which are not defined in detail at the creation of the Work Package
 
-### Technical Specifications Life Cycle
+#### Technical Specifications Life Cycle
 
 Note: from `[Organization_Abbreviation]` Scope & Governance
 ```
@@ -810,15 +706,15 @@ It is suggested to follow the principles of [Trunk Based Development](https://tr
   </tbody>
 </table>
 
-## Publication
+## Final Publication and Advancement Guidelines
 There are at least three different options to publish content using GitHub:
 <figure>
 	<img src="images/publication-2.svg" alt="Publication">
 	<figcaption>Publication</figcaption>
 </figure>
 
-## Documentation
-### Semantic Versioning
+##### Documentation
+##### Semantic Versioning
 
 <figure>
 	<img src="images/semantic-versioning.svg" alt="Semantic Versioning">
@@ -858,9 +754,9 @@ There are at least three different options to publish content using GitHub:
   </tbody>
 </table>
 
-## Intellectual Property Rights
+### Notice Requirements and IPR Review Guidelines
 
-### Copyright
+#### Copyright
 This section provides a recommendation based on the best practice implemented by other projects.
 
 Most LF project communities do not require or recommend that every contributor include their copyright notice in contributed files.
@@ -897,7 +793,7 @@ These are some of the reasons why `[Organization_Abbreviation]` does not recomme
 * If your contribution contains content from a third party source who didn't contribute it themselves, then you should not add the notice above. 
 * You should not change or remove someone else's copyright notice unless they have expressly (in writting) permitted you to do so.
 
-### Licenses
+#### Licenses
 This section provides a recommendation on how to communicate software or document licenses information in a project.
 
 #### Software Code Licenses
@@ -950,7 +846,7 @@ Also consider to:
 * keep these files in sync with the upstream project
 * ask the upstream project to insert the identifiers on their source code files / documents.
 
-### [Organization_Name] Software License Policy
+#### [Organization_Name] Software License Policy
 This policy is intended to assist `[Organization_Name]` Technical Working Groups to handle Software Licenses in the Projects.
 
 #### Recommended SafeGuards
@@ -978,7 +874,7 @@ This policy is intended to assist `[Organization_Name]` Technical Working Groups
   - If the group decides to ship binaries, the binaries should be ONLY for the code developed under the Project License.
   - If there are any other binaries under different license, then each binary should be distributed in its own files. Binaries under a license different than the Project License CANNOT packed with the same binaries than the ones created by the group
   
-### Technical Document License
+#### Technical Document License
 In projects where the main deliverables are technical documents, each document MUST have a legal disclaimer.
 
 The legal disclaimer to insert in each project document SHOULD be:
@@ -999,7 +895,7 @@ THE OTHER MEMBER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.”
 ```
 
 
-## Reference Material
+## Additional Resources and Reference Materials
 ### Documents
 
 * [Dictionary]()
