@@ -8,17 +8,23 @@ Section notes should be deleted once customization is complete. Content in brace
 **Adopted on: __________**
 
 **Table of Contents**
-- Introduction
-- Governance
- - {{PROJECT-NAME}} Organizational Structure
- - Roles & Expectations
- - Meeting Policy
- - Guidelines for Decision-Making
-- Specification Development and Release Management Process
- - Git-based Development Flow 
-- Final Publication and Advancement Guidelines
- - Notice Requirements and IPR Review Guidelines
-- Additional Resources and Reference Materials
+1. Introduction
+2. Governance
+   * {{PROJECT-NAME}} Organizational Structure
+   * Roles & Expectations
+   * Meeting Policies
+   * Guidelines for Decision-Making
+3. Specification Development and Release Management Process
+   * Review and Approval Guidelines
+   * Roadmap and Release Planning
+   * Specification Development Lifecycle
+   * Guidelines for {{PLATFORM}} Workflow (optional)
+4. Publication and Collaboration Guidelines
+   * Collaboration with other Standards Developing, Open Source, or Industry Organizations
+   * Notice Requirements and IPR Review Guidelines
+5. Additional Resources and Reference Materials
+   * Project Templates
+   * Project Onboarding and Training
 
 ## Introduction
 
@@ -28,14 +34,7 @@ Upon Approval of the Steering Committee, this document may be updated periodical
 
 ## Governance
 
-```
-Note: Select one of the following options based on your project's hosting structure. Delete the option you do not use.
-```
-*Option 1 - Community Specification Licensed Projects*
 {{PROJECT-NAME}} is a Community Specification License project hosted by {{LEGAL-PARENT}}. Its Governance policy is as set forth in the GOVERNANCE.md file of the Project repositories. In the event of a conflict or inconsistency, the documents shall control in the following order of precedence (from highest to lowest): the terms of the Community Specification License, the {{LEGAL-PARENT}} Technical Project Charter and Series Agreement, and any policies or procedures adopted by the Project as outlined in this Process Document.
-
-*Option 2 - Joint Development Foundation Traditional Mode Projects*
-{{PROJECT-NAME}} is hosted by the Joint Development Foundation. Its Governance policy is as set forth in the Project's Membership Agreement. In the event of a conflict or inconsistency, the documents shall control in the following order of precedence (from highest to lowest): the Membership Agreement, the Project Charter, the Working Group Charter, and any policies or procedures adopted by the Steering Committee as outlined in this Process Document.
 
 ### {{PROJECT-NAME}} Organizational Structure
 
@@ -56,35 +55,20 @@ Note: The content in this section should not be an exhaustive description of eac
 
 The Steering Committee is the body that is responsible for governing the Project, including approving Final Deliverables as a consensus product of the Working Groups. It also approves the formation of new project Working Groups or sub-committees.
 
-**Steering Committee Composition**
-**Steering Committee Meeting Information**
-**Steering Committee Mailing List Information**
-**Steering Committee Workspaces**
+**Steering Committee Composition**: 
+```
+Note: Refer to the Project Charter of the Membership Agreement packet to indicate how Steering Committee representatives are named, along with any supporting policies for participation and engagement.
+```
+**Steering Committee Meeting Information**: 
 
-* The Steering Committee is comprised of a representative of the founding members of the Organization and it has a single primary member representing each company.
-* Each Steering Committee meeting is called on a regular interval, although this interval can be ad-hoc as long as the proper notice is given.
-* Proper notice of the Steering Committee (SC) meeting is given to its representatives including an agenda with the topics to be voted by the SC having been prepared with a proper notice period, typically one week.
-* A meeting of the Steering Committee makers should have a quorum of `X` Steering Committee participants.
-* Motions are made and accepted by a vote of the designated Steering Committee members. Members may debate the motion, make changes if thought fit, accept or reject the motion. It is an important principle that there is an opportunity for questions and clarifications of the motion in the process. 
-* The votes are taken only by the appointed representatives of the Steering Committee.
-* Minutes of the meeting are taken to record the attendance, votes and their outcomes. 
- 
+```
+Note: Meetings should be held on a defined cadence, and ad-hoc meetings may be called with 7 or more days advance notice. Meeting notices must include an agenda with the topics to be discussed as well as any votes or resolutions to be taken during the meeting. Projects may adopt the degree of formality for meeting management that best suits their needs. Meeting minutes must be recorded and include the attendance and records of any votes or discussion outcomes.
+```
+**Steering Committee Mailing List Information**: _list information about SC mailing lists and who may post to them_
+**Steering Committee Workspaces**: _list any tools or areas that SC representatives must be able to access_
+
 #### Working Group(s)
 
-```
-Note: Select one of the following options based on your project's hosting structure. Delete the option you do not use.
-```
-*Option 1 - Community Specification Licensed Projects*
-The Working Group is the primary governing body for the project and is responsible for developing specifications, standards, best practices, guidelines, and other similar materials under the Community Specification License.
-
-  * **Brief Description of Scope:** see SCOPE.md
-  * **Link to Charter:** see GOVERNANCE.md and LICENSE.md
-  * **Link to Meeting Information:** see README.md
-  * **Link to Mailing List Information:** see README.md
-  * **Link to  Workspaces:** see CONTRIBUTING.md
-  * **How to Join:** see CONTRIBUTING.md
-
-*Option 2 - Joint Development Foundation Traditional Mode Projects*
 The Project may have multiple Working Groups, and each Working Group will work within their defined scope on certain deliverables as set forth in its Working Group Charter. Changes to a Working Group Charter must be approved by the Steering Committee.
 
 ```
@@ -109,221 +93,127 @@ Note: This section should be updated each time a new Working or Sub-Working Grou
 
 #### Project Committee(s) *(Optional)*
 
-The Project may have multiple Working Groups, and each Working Group will work within their defined scope on certain deliverables as set forth in its Working Group Charter. Changes to a Working Group Charter must be approved by the Steering Committee.
 ```
-Note: It is normal that Organizations have one or more Committee Teams, e.g. Marketing and or Strategy Teams.
-In this section we provide a template listing different Marketing responsibilities. 
-Please update this section as you see fit.
-```
-```
-Note: This section should be updated each time a new Working or Sub-Working Group is added or removed.
+Note: Projects may have one or more Committees to work in areas that support the technical development. Common examples include Marketing, Budget, and Events Committees. Committees do not produce technical deliverables and participation is often used as a benefit of Membership. This section should be updated each time a new Committee is added or removed.
 ```
 
-* Each Steering Member will be represented in the Marketing Committee Team by one representative only. 
-* The Marketing Team 1 typically focuses on the following:
-  * manages internal and external communications;
-  * is responsible for press releases;
-  * maintenance of the website;
-  * coordinates participation at congresses; and
-  * manages the communication strategy.
+{{PROJECT-NAME}} may establish one or more non-technical Committees to advance its work.
 
+* {{PROJECT-NAME}} has the following Project Committees:
+  * Committee 1
+    * **Purpose of Committee/Key Responsibilities:**
+    * **Link to Charter:**
+    * **Link to Meeting Information:**
+    * **Link to Mailing List Information:**
+    * **Link to  Workspaces:**
+    * **How to Join:**
+  * Committee 2
+    * **Purpose of Committee/Key Responsibilities:**
+    * **Link to Charter:**
+    * **Link to Meeting Information:**
+    * **Link to Mailing List Information:**
+    * **Link to  Workspaces:**
+    * **How to Join:**
 
+### Membership Roles & Expectations
 
-### Roles & Expectations
+#### {{PROJECT-NAME}} Membership
 
-#### Membership Levels
+{{PROJECT-NAME}} Members are eligible Organizations that have signed the Membership Agreement at the Steering, General, or Contributor level. Members may appoint individual representatives from their Organization or Affiliate to participate in Working Groups and Committees. All Members and their selected representatives are expected to abide by the Code of Conduct, Contributing, Governance, and License policies as set forth in the {{PROJECT-NAME}} Membership Agreement.
 
-```
-Note: Provide a list of Membership Levels:
-```
+Trade Associations, Industry Forums, Standards Developing or Open Source organizations, and other Membership-based organizations are not eligible for Membership and should participate under the terms of a mutually-agreed MOU. Individuals are not eligible for Membership, but may make contributions to public repositories under the terms of that repository's open source license(s) and may be permitted to provide other contributions under the terms of the Non-Member Participation Agreement in the Membership Agreement (Appendix C). 
 
-The Organization Membership Levels are:
-
-* Strategic
-* General
-* Associate
-
-See [Membership Benefits](#membership-benefits)
-
-```
-Note: It is important to provide a description of what is expected from each Organization role.
-```
-* [Participants](#participants)
-* [Editors](#editors)
-* [Maintainer(s)](#maintainers)
-
-#### Participants
-Note:
-> A Participant is any individual creating content or commenting on an issue or pull request.
-
-* Participants MUST read the Project documentation (e.g.: this operational document, contribution guidelines, README, and Release Planning documents) before attenting to submit an Issue or Pull Request
-* Participants are not allowed to fork a project to build a feature that has been rejected by the Working Group
-
->Note: from [Scope & Governance]() Document
+The table below summarizes the rights granted to each level for participation in the technical project, per the terms of the Project and Working Group charters. In addition to these rights, the Steering Committee may outline additional membership benefits, fees, or requirements for each level which can be found at {{MEMBERSHIP-URL}} if applicable. 
 
 ```
-1.3. Participants. “Participants” are those that have made Contributions to the Working Group subject to the Community Specification License.
-```
-
-#### Editors
-Note:
-> An Editor is a subset of Participants who have been given write access to the repository. They will advance the day-to-day evolution of the specification
-
->Note: from [Scope & Governance]() Document
-
-```
-1.2. Editor. “Editors” are responsible for ensuring that the contents of the document accurately reflect the decisions 
-that have been made by the group, and that the specification adheres to formatting and content guidelines. 
-Each Working Group will designate an Editor or Editors for that Working Group.
-A Working Group may select a new Editor or Editors upon Approval of the Working Group Participants.
-```
-
-#### Maintainers
-
->Note: from [Scope & Governance]() Document
-
-```
-1.1. Maintainer. “Maintainers” are responsible for organizing activities around developing, maintaining, and updating the specification(s) developed by the Working Group. Maintainers are also responsible for determining consensus and coordinating appeals. Each Working Group will designate one or more Maintainer for that Working Group. A Working Group may select a new or additional Maintainer(s) upon Approval of the Working Group Participants.
-
-```
-
-* In performing their tasks, Working Group Maintainers SHALL maintain strict impartiality and act in the interest of the Organization.
-* Maintainers MAY limit the amount of time allocated to a particular agenda item or discussion point.
-* Maintainers SHALL, after a reasonable period of discussion time, use means to quickly reach a decision including (but not limited to):
-  * a statement of the Maintainers’s view of group consensus, which shall be accepted by the group if there are no objections.
-  * assignment of action items to progress the issue in a short a time period as possible.
-  * invite single or few objectors to no longer sustain their objections.
-  * informal voting.
-  * formal voting.
-* Maintainers MAY require that new information be provided about an issue before earlier decisions can be reopened/revisited.
-* The work and progress of the group is appropriately communicated through regular status reports to the SC.
-* The Maintainer MAY delegate tasks to other Maintainers, including chairing the group as and when necessary.
-* The Maintainer MUST keep the project documentation up to date (e.g.: contributing, readme and release planning documents)
-* The Maintainer MUST apply "Review & Approval" process to contributions submitted by the Working Group members
-* The Maintainer SHOULD use GitHub "Labels" to indicate the type of “Review & Approval” assigned to each Pull Request
-* The Maintainer SHOULD keep communications with the members via GitHub Issues or Pull Requests rather than one to one communications
-* The Maintainer SHOULD close contributions that do not follow the rules, or meet the right quality or are related to features that are in the scope of the Release Version under development
-
-#### Membership Benefits
-
-```
-Note: Please update the Membership Benefits table below based on your Organization views. Alternatively, this table could be moved to the Organization website.
+Note: Provide a description of the expectations for each participation level *as it pertains to the technical deliverables* - refer to the Membership Agreement to confirm the correct selections for your Project.
 ```
 
 <table>
-  <caption>Membership Benefits</caption>
+  <caption>Participation Levels</caption>
   <thead>
     <tr>
         <th></th>
         <th>Steering</th>
         <th>General</th>
-        <th>Associate</th>
-        <th>Community</th>
+        <th>Contributor</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-        <td colspan="5"><strong>Pricing</strong></td>
-    </tr>
-    <tr>
-        <td>Price</td>
-        <td>$XXX</td>
-        <td>$XXX</td>
-        <td>$XXX/td>
-        <td>$0K</td>
-    </tr>
-    <tr>
         <td colspan="5"><strong>Leadership</strong></td>
     </tr>
     <tr>
-        <td>Eligible to participate in the Steering Committee</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>Eligible to lead Steering Committee</td>
+        <td>Yes</td>
+        <td>No</td>
+        <td>No</td>
     </tr>
     <tr>
-        <td>Eligible for a Working Group Maintainer position</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>Eligible to lead Working Group</td>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>No</td>
     </tr>
     <tr>
-        <td>Eligible for a Working Group Co-Maintainer position</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>Eligible to lead Subcommittee or Technical Task Force</td>
+        <td>Yes</td>
+        <td>Task Forces only</td>
+        <td>No</td>
     </tr>
     <tr>
         <td colspan="5"><strong>Participation</strong></td>
     </tr>
-    <tr>
-        <td>Eligible to join a Working Group</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
+        <tr>
         <td>Eligible to join the Steering Committee</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>Yes</td>
+        <td>No</td>
+        <td>No</td>
     </tr>
     <tr>
-        <td>Eligible to join the Marketing Team</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>Eligible to join Working Group(s) and Task Forces</td>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>Select Working Groups and Task Forces</td>
+    </tr>
+    <tr>
+        <td>Eligible to join Committee(s)</td>
+        <td>Yes</td>
+        <td>Marketing Committee only</td>
+        <td>No</td>
     </tr>
     <tr>
         <td colspan="8"><strong>Contribution</strong></td>
     </tr>
     <tr>
         <td>Contribute to Working Groups</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>Yes</td>
     </tr>
     <tr>
-        <td>Propose new working groups</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>Propose new Working Groups</td>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>No</td>
     </tr>
     <tr>
-        <td>May propose a Work Package</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>May propose a Work Package or Feature</td>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>No</td>
     </tr>   
     <tr>
-        <td>Counted towards minimum support quorum of a Work Package</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td colspan="5"><strong>Decision-Making</strong></td>
     </tr>
     <tr>
-        <td colspan="5"><strong>Voting</strong></td>
-    </tr>
-    <tr>
-        <td>Approval of Publications, Working Group formation and Governance</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>Decides on Final Approval of Publications, Working Group formation, and/or Membership Agreement Changes</td>
+        <td>Yes</td>
+        <td>No</td>
+        <td>No</td>
     </tr>
     <tr>
         <td>Vote in a Supermajority vote</td>
-        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -333,13 +223,11 @@ Note: Please update the Membership Benefits table below based on your Organizati
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
     </tr>
         <td colspan="5"><strong>Access to Meetings</strong></td>
     </tr>
     <tr>
         <td>Attend Work Group meetings (F2F, conference calls, interim)</td>
-        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -352,11 +240,9 @@ Note: Please update the Membership Benefits table below based on your Organizati
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>May appeal on technical issues</td>
-        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -366,363 +252,360 @@ Note: Please update the Membership Benefits table below based on your Organizati
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
     </tr>
   </tbody>
 </table>
 
-### Meeting Policy
+**Roles & Expectations**
+
+All [Working Group]() and [Committee]() Participants are expected to: 
+* Read and adhere to the Membership Agreement terms, Operational Process Document, and all applicable policies 
+* Familiarize themselves with their own organization's internal policies for engagement with standards bodies
+* Take the [Antitrust training]()
+* Use the workspaces provided by the Project for the purposes of making contributions
+* Participate in good faith in the consensus-seeking process
+* Inform the Project of any issue that may arise.
+
+Working Group and Committee Chairpersons are expected to: 
+* Follow the guidelines listed above for Working Group and Committee Participants
+* Take the [Leading Effective Working Group Meetings Training]()
+* Ensure fair, timely review and approval for group decision-making in the standards development process
+* Publish Notices in a transparent and timely manner
+
+The Specification Editor(s) are expected to:
+* 
+
+The Steering Committee Chairperson is expected to:
+* Follow the guidelines listed above
+* Counter-execute new Membership Agreements on behalf of the Project
+* ...
+
+### Meeting Policies
 
 ```
-Note: Effective group meetings allow the Steering Committee, Committee Teams and Working Groups to discuss complex issues and talk through ideas and solutions. It is recommended to keep a Meeting Minutes record for each meeting.
-```
-* WGs are encouraged to schedule regular conference calls.
-* The Meetings MUST be announced at least, 7 days in advance for conference calls, and 1 month for face to face meetings.
-* All the Organization members are contractually bound to the IPR policy under terms of the Membership Application and these IPR Guidelines must be followed.
-* Meetings SHALL have an antitrust statement and an IPR call where a reminder of the IPR policy and the duties and obligations of members is provided.
-* A meeting attendee list MUST be produced for each meeting. This is necessary to determine which members can vote in a Supermajority vote.
-
-#### Meeting Agenda
-
-```
-Note: An effective Meeting Agenda enable teams to organize its topics and give a fair chance for every topic to be discussed.
-```
-* Please refer to the Organization Agenda & Meeting Minutes [Template]()
-
-#### Meeting Minutes
-
-``` 
-Note: It is important to record the key issues discussed during the meeting, motions proposed or voted, and activities to be undertaken.
-Also, it should be recorded meeting attendance, specially if there is a voting requirement associated with members attendance.
-
-It is recommended to define an Agenda & Meeting Minutes template.
-```
-* Please refer to the Organization Agenda & Meeting Minutes [Template]()
-
-### Guidelines for Decision-Making
-#### Decision Making
-
-```
-Note: the following bullet points needs to be reviewed by the group: 3.1, 3.1 and 3.2 
-This is to ensure that the fact of having memberships levels doesn't contradicts these rules
+Note: The policies in this section should apply to all meetings in the organization. While the language provided describes general best practices, you can modify this section liberally to fit how your community prefers to meet.
 ```
 
-Note: from `[Organization_Abbreviation]` Scope & Governance
+{{PROJECT-NAME}} Working Groups and Committees have regular and ad hoc teleconference meetings. All teleconference meetings are subject to the organization's IPR and Antitrust policies and:
+
+* Must be announced on the group Mailing List at least 7 days in advance and include any planned votes or notices
+* Must be published to the Project Meeting Calendar
+* Must use the Project's Agenda and Minutes templates and post them to the Group's shared meeting directory
+* Must record attendance information, key issues discussed, proposed action items or motions, and outcomes of any vote or consensus decision.
+* Shall be open to any eligible Working Group or Committee participant
+* May include invited guests or Non-Member participants upon Working Group approval at the invitation of the Working Group Chair
+* May be recorded by consent of the Working Group/Committee participants
+* May not permit personal AI Notetaking tools
+* May not be publicly broadcasted (e.g. through streaming services)
+
+#### Meeting Agendas, Minutes, and other Collateral
+
+* Agenda and Meeting Minutes templates can be found in the [Template directory]().
+* Meeting materials for each Working Group and Committee are located in that group's repository. 
+  * Meeting materials include the Agenda, Minutes, and any presentations or documents discussed.
+  * Meeting materials generated with assistance from AI tools must be marked as such.
+  * Meeting minutes should be reviewed and approved  
+* The Project's Meeting Calendar is maintained by LFX Meetings
+* To subscribe to the Meeting Calendar, [click here]()
+* To view past or upcoming meetings, access meeting recordings or calendar invites, go to [https://openprofile.dev]
+
+### Decision-Making Practices and Consensus Guidelines
+{{PROJECT-NAME}} develops its specifications through voluntary consensus, meaning that:
+
+* Participation is open to all interested stakeholders.
+* Decisions are made by consensus. Consensus means substantial agreement, absent of sustained objection, not necessarily unanimity.
+* The deliverable development process is transparent. Procedures are accessible and allow for input and review.
+* There is a balance of interests, so no single group organization or stakeholder group dominates decision-making.
+* There is due process, including mechanisms for notices and procedural appeals. Due process means that any party with a direct and material interest has a right to participate by: a) expressing a position and its basis, b) having that position considered, and c) having the right to appeal. Due process allows for equity and fair play. 
+
+[Section x.x of the Membership Agreement]() outlines the terms of decision-making. The remainder of this section is intended to provide guidance on the operational application of these terms. 
 
 ```
-2. Decision Making.
-2.1. Consensus-Based Decision Making. Working Groups make decisions through a consensus process (“Approval” or “Approved”). While the agreement of all Participants is preferred, it is not required for consensus. Rather, the Maintainer will determine consensus based on their good faith consideration of a number of factors, including the dominant view of the Working Group Participants and nature of support and objections. The Maintainer will document evidence of consensus in accordance with these requirements. Consensus will not be deemed to have been met in the event of a sustained objection from one or more Working Group participants.
-
-2.2. Appeal Process. Decisions may be appealed via a pull request or an issue, and that appeal will be considered by the Maintainer in good faith, who will respond in writing within a reasonable time.
-
-3. Ways of Working.
-Inspired by American National Standards Institute’s (ANSI) Essential Requirements for Due Process, Community Specification Working Groups must adhere to consensus-based due process requirements. These requirements apply to activities related to the development of consensus for approval, revision, reaffirmation, and withdrawal of Community Specifications. Due process means that any person (organization, company, government agency, individual, etc.) with a direct and material interest has a right to participate by: a) expressing a position and its basis, b) having that position considered, and c) having the right to appeal. Due process allows for equity and fair play. The following constitute the minimum acceptable due process requirements for the development of consensus.
-
-3.1. Openness. Participation shall be open to all persons who are directly and materially affected by the activity in question. There shall be no undue financial barriers to participation. Voting membership on the consensus body shall not be conditional upon membership in any organization, nor unreasonably restricted on the basis of technical qualifications or other such requirements. Membership in a Working Group’s parent organization, if any, may be required.
-
-3.2. Lack of Dominance. The development process shall not be dominated by any single interest category, individual or organization. Dominance means a position or exercise of dominant authority, leadership, or influence by reason of superior leverage, strength, or representation to the exclusion of fair and equitable consideration of other viewpoints.
-
-3.3. Balance. The development process should have a balance of interests. Participants from diverse interest categories shall be sought with the objective of achieving balance.
-
-3.4. Coordination and Harmonization. Good faith efforts shall be made to resolve potential conflicts between and among deliverables developed under this Working Group and existing industry standards.
-
-3.5. Consideration of Views and Objections. Prompt consideration shall be given to the written views and objections of all Participants.
-
-3.6. Written procedures. This governance document and other materials documenting the Community Specification development process shall be available to any interested person.
+Note: The following sections can be tailored for your Project. For example, if your Project will do much of its development on GitHub, you may provide additional guidance for how Working Groups can use informal voting or input gathering with upvotes or emojis, or you might add additional responsibilities and expectations for Chairpersons.
 ```
 
-As part of their responsibilities defined in [from WG Maintainers](#from-wg-maintainers), Maintainers need to ensure efficient and effective decision-making:
-* The decision making process in WGs is intended to be as inclusive as possible. 
-* WGs shall attempt to use consensus to make decisions. 
-* If consensus cannot be reached, voting mechanisms MAY be used. 
-* Formal notice SHALL be given for decision making, e.g.:
-  * Inclusion of a document on an agenda, proposing a specific decision to be taken (e.g. Pull Request).
-  * Inclusion of an item directly in the agenda (e.g. proposed next meeting date).
-  * Items proposed for approval via the group mailing list (e.g. agreement a document revision).
-  * Inclusion of a document for decision in an electronic Review, Comment and Approval event
-  * Inclusion of a document for decision in an e-vote (Supermajority) vote.
- 
- > The above list is not exhaustive.
+#### General Approach to Decision-Making
 
-* There SHALL be no distinction in the decision-making merit of real-time or non-real-time meetings.
-  * In real-time meetings, consensus can be determined by receiving no sustained objections to a proposal. 
-  * In non-real-time meetings, consensus SHOULD be developed using Review, Comment and Agreement periods, e.g. using [Review and Approval](#[Organization_Abbreviation]-approval-process)
-* Proposals SHALL be available for a given period. 
+* Working Groups and Committees seek consensus as the preferred decision-making method.
+* Consensus does not require unanimity, but the agreement of all participants is preferred.
+* If consensus cannot be reached, Working Group or Committee Chairpersons may use voting mechanisms as an alternative.
+* Chairpersons must ensure decisions are made efficiently, without undue delay due to unavailable participants or contributions.
+* Decisions may be made in real-time meetings or asynchronous forums meetings with equal merit.
+* Where attendance or engagement is sparse when viewed from normal participation levels, potentially controversial proposals should be made available to the broader membership or given more time for review.
 
+#### Consensus-Seeking Procedures
 
-#### Seeking Consensus
-* Groups shall endeavour to reach consensus on all decisions. 
-* Informal methods of reaching consensus are encouraged (e.g. a show of hands).
-* Groups SHOULD attempt to ensure contributions relating to the same subject matter are considered together before being disposed. 
-* However the Maintainer SHALL ensure that progress is not delayed by unavailable contributions or participants.
-* Agreement SHALL be sought in all forms of meeting.
+* Informal methods for gauging consensus are encouraged (e.g., show of hands, use of "+1" or voting on Pull Requests).
+* Ensure all eligible Participants have had an opportunity to provide input.
+* Related contributions should be considered together before resolution.
+* Agreement SHOULD be sought in all Project forums, including asynchronous discussions (meetings, email discussions, chat tooling).
+* Chairperson(s) must consider:
+  * The dominant view of Working Group participants
+  * The nature and strength of any objections
+* Consensus shall not be considered achieved if there is a sustained objection from one or more participants.
+* Chairperson(s) must document consensus decisions based on these criteria.
+
+#### Chairperson Responsibilities in Decision-Making
+
+Working Group and Committee Chairpersons must:
+* Ensure timely progress on decisions, and provide notice for decisions requiring formal input from the Working Group or Committee.
+* Ensure the maintenance and access of up-to-date project documentation (e.g., README, contributing guides, release plans).
+* Apply a defined Review & Approval process to all contributions.
+* Ensure opportunity for participation in the decision making process. 
+
+Working Group and Committee Chairpersons should:
+* Use project management tools and automation to facilitate collaboration - for example, using GitHub Labels to indicate the type of review assigned to pull requests.
+* Conduct technical discussions within view of all Working Group Participants, for example using GitHub Issues and PRs (not 1:1 chat messages).
+* Close contributions that:
+  * Don’t follow project contribution and IPR rules
+  * Don’t meet quality standards
+  * Fall outside the scope of the Project
+  
+Working Group and Committee Chairpersons may:
+* Delegate tasks to other Participants (including chairing meetings).
+* Limit time spent on specific agenda items or proposals.
+* Require new information before reopening previously tabled or resolved issues.
+* Add or remove Non-Members (Invited Guests) from Working Group meetings or other project forums.
+
+The lists above are exemplary and not exhaustive.
+
+#### Mechanisms for Reaching Decisions
+
+Proposals should be available for a defined comment period prior to calling for a decision. In non-real-time settings, consensus should be developed through review, comment, and acceptance of modifications. When discussion stalls or needs resolution, Working Group and Committee Chairpersons may:
+
+* Issue a statement of perceived consensus (accepted if no objections arise)
+* Assign Action Items with short timelines
+* Direct invitation for objectors to withdraw sustained objections
+* Use informal voting mechanisms (surveys, "upvotes", polls, etc)
+* Use a formal ballot mechanism, whereby each eligible Member organization may submit a vote through their designated voting representative. 
+
+#### Formal Decision-Making Requirements
+
+Notice must be given for formal decisions, which may include:
+* A pull request or document listed on an agenda
+* Agenda item proposing next meeting dates
+* Proposal circulated via mailing list
+* Review & Comment periods via GitHub or other tools
+* Electronic ballots for major decisions. Formal ballots are required for Adoption of Approved or Final Deliverables.
+
+#### Communication and Reporting
+
+* Progress and work status, including the outcome of any major decisions, should be regularly communicated through status updates, changelogs, reports or other means.
+* All Participants should take care to abide by the Project's public disclosure policies. 
+* Working Group and Committee Chairpersons are responsible for ensuring transparent and consistent communication with other Participants, particularly through the Project's primary workspace (e.g. GitHub and/or mailing lists).
 
 #### Handling objections when seeking consensus
-* Objections from a small minority SHOULD be minuted and the objecting delegates SHOULD be questioned if having their objections minuted is sufficient and they agree to not sustain their objections. 
-  * If such agreements are secured, then there is consensus for approving the proposal. 
-  * If such agreements are not secured, then the proposal is not agreed and further action SHALL be taken (e.g. the proposal is withdrawn, updated, or voted on). 
-  * Members are discouraged from sustaining their objections when it is clear that they would be overruled by a vote were one to take place.
-* In real-time meetings, consensus can be determined by receiving no sustained objections to a proposal.
-  * Efforts to immediately resolve or record objections can be taken to attempt to achieve consensus.
-* Where attendance is sparse when viewed from normal participation levels, potentially controversial proposals SHOULD be made available to the broader membership. 
-* The Maintainer is responsible for ensuring such opportunity for participation in the decision making process. 
-* Sparsely attended meetings SHOULD NOT be used to drive through proposals that would not have broad support.
-* Following a decision-making meeting, a summary of decisions and document dispositions SHALL be published as soon as is practical. 
-  * This will be addressed if the meeting minutes are available in a timely fashion.
-* When there is insufficient time for review in a real-time meeting, non-real-time consensus approaches SHOULD be considered.  
-* In non-real time meetings consensus SHOULD be developed by using [Review and Approval](#[Organization_Abbreviation]-approval-process) periods.
-  * Using the group mailing list
-  * Using GitHub "Review and Approval" label
-* Proposals SHALL be available for a given period.
 
-#### Using Supermajority vote to achieve agreement 
-##### Phrasing of Voting Questions
-* The Maintainer ensures that questions to be voted upon SHALL be phrased in a concise and unambiguous manner. 
-* Questions SHOULD NOT be phrased as the “The group SHALL not do xyz”. Examples of appropriate questions are:
-  * SHALL the group agree the Specification?
-  * SHALL the liaison be approved?
-  * SHALL the new Work Package be approved?
-  * SHALL the existing Work Package be stopped?
-  * If the issue is to choose between two options (i.e. A or B), an example of the appropriate question may be:
-  * SHALL the group agree Option A or Option B?
-* The option receiving no less than **3/4** of the Supermajority Votes SHALL be the decision of the group.
-* If the issue is to choose between three or more options, the group SHOULD use informal voting to reduce the number of options to two, and then use formal voting, if necessary.
+Sparsely attended meetings or forums should be used to drive through proposals that would not have broad support. Care should also be taken when decisions need to be made during peak holiday periods. Dissent or objections should be recorded in the appropriate forum (e.g. the Project's minutes or via an alternative proposal in GitHub). In many cases, clearly documenting the concerns, basis for the objection, or alternatives proposed may be sufficient for the dissenting Participant(s) to not sustain their objection and move forward with the consensus decision (alternatively, "Disagree and commit"). Participants are discouraged from sustaining their objections when it is clear that they would be overruled by a vote were one to take place.
 
-#### Voting on Technical Issues
+If the objection is sustained, further action is required to move forward - the Proposal may be withdrawn, amended, countered, or put to a formal vote. The Working Group or Committee Chairperson may propose a deadline for any actions in order to ensure the timely functioning of the group. Meeting summaries must include the outcome of the discussion and which Participant(s) are responsible for next actions. If there is insufficient time for review in a real-time meeting, non-real-time decision-making approaches should be used and documented for the group.  
 
-Note: Supermajority Vote
+#### Voting
 
-```
-Note: Define Supermajority
-```
-*	Before voting, a clear definition of the issues SHALL be provided by the Maintainer.
-* Members eligible to vote, SHALL only be entitled to one vote each.
-* Each member MAY cast its vote as often as it wishes, and the last vote it casts counts.
-* Voting MAY be performed electronically.
-* Voting MAY be performed by show of hands and members announcing their vote verbally one by one, or paper ballots.
-* The result of the vote SHALL be recorded in the meeting minutes.
-* Groups MAY use informal voting to reach consensus. If the Group is still unable to reach consensus, then a formal vote MAY be taken. 
-* Each member’s electronic vote SHALL be electronically acknowledged to confirm participation in the vote.
-* The voting period for proposals are:
-  * In-person-meetings require at least 30 days prior written notice
-  * Teleconference meetings require at least 7 days prior written notice
-  * Electronic voting MUST remain open for no less than 7 days.
+In the case that a decision cannot be made by consensus, or in the case that a formal vote is required per the terms of the Membership Agreement, the following guidelines apply. 
 
+**Phrasing Questions or Resolutions for Votes**
+The Working Group Chairperson is responsible for ensuring all voting questions are clear, concise, and unambiguous. Collateral related to the vote question should be made available along with the text of the vote in advance. Questions should be phrased positively (e.g., “Shall the group…?”) and not in a negative form such as “The group shall not…”.
+
+Examples of well-phrased questions:
+* “Shall the group approve the Specification?”
+* “Shall the liaison be approved?”
+* “Shall the new Work Package be approved?”
+* “Shall the existing Work Package be stopped?”
+
+For decisions involving three or more options, the group should reduce the choices to two using informal voting techniques before proceeding to formal voting. Binary choices should be phrased clearly, e.g. “Shall the group approve Proposal A or Proposal B?.”
+
+**Voting Methods**
+Each eligible Member company is entitled to one vote, which should be issued by that Member's designated voting representative or their delegate.Members may change their vote during the voting period, however the last recorded vote is the one that counts.
+
+Voting methods may include:
+* Electronic voting via tools such as LFX, Doodle, OpaVote, or Email
+* Show of hands
+* Verbal roll call
+
+Votes should be acknowledged to confirm receipt and participation, particularly those taken electronically. 
+
+**Voting Period Requirements**
+In-person meetings: A vote may be taken during an in-person meeting with a minimum 30 days prior written notice.
+Teleconference meetings: Votes taken during teleconference require a minimum 7 days prior written notice.
+Electronic voting: Votes taken via electronic means require no advance notice but must be open for no fewer than 7 days and utilize only "yes" or "no" question phrasing.
+
+**Voting Results**
+Results of all votes must be recorded in the meeting record for the Working Group or Committee. For votes that took place asynchronously through electronic ballot, the Chairperson should report the outcome of the vote at the next meeting. 
+
+#### Appeals
+Decisions may be appealed via a pull request or an issue, and that appeal will be considered by the Working Group Chairperson in good faith, who will respond in writing within a reasonable time.
 
 ## Specification Development and Release Management Process
 
-#### Approval Process
+Standards and specification development processes differ from open source development. In open source communities, contributions are made by forking a project and submitting a patch or pull request back to the project. The open source maintainer then decides whether to accept or reject that contribution, but in the meantime the Contributor is free to leverage the code with their own modifications. 
+
+On the other hand, standards and specifications development efforts typically seek to drive interoperability or shared procedures across different implementations or technical stacks. Standardization activities require agreement of a much broader group of stakeholders and contributors, thus a more democratic approach to development is necessary. 
+
+The review and approval process below outlines how all contributions are evaluated and either accepted or rejected by a Working Group. 
+
+```
+Note: This section should be modified to suit the preferred tools and workflows of the Project. We have provided an example based on a typical specification project that is developing collaboratively on GitHub. In lieu of PRs, for example, your project may have some other documentation such as an Architectural Decision Record or proposal template to communicate a desired change or addition. 
+```
+
+### Review and Approval Guidelines
 <figure>
 	<img src="images/R_A-1.svg" alt="Review & Approval">
-	<figcaption>Review & Approval</figcaption>
+	<figcaption>Illustration of the Review & Approval process</figcaption>
 </figure>
 
-In the Standards Development Organizations (SDOs) the approval or rejection of a contribution follows a democratic process; **the majority**. This differs from an Open Source organization that normally follows a meritocratic process where the Maintainer decides what to accept of reject. If a person doesn’t like the decision that her contribution is rejected, then she can “fork” the project.
+The review period is the period of time during which the contribution will be under review before being merged. In order to advance work in a timely fashion, the Project has adopted guidelines for Working Group review periods:
 
-The goal for an SDO is to reach interoperability, therefore “forking” is not the solution to a technical dispute. If there is a sustainable objection in a contribution the resolution is via a vote, see [Seeking Consensus](#seeking-consensus).
+* Non-substantive editorial changes - for example typo fixes and grammatical corrections, broken links and other simple tasks - may be adopted without Working Group review.
+* Minor changes to specification text and errata require at least one full day for review. Examples include updates to non-normative sections and notes, edits to prose, or edits to draft spec text which is still in active development. 
+* Major changes require at least 3 days for review. Examples of major changes include significant edits to a planned feature, significant revisions to a term or definition, or changes to existing normative behavior.
+* New feature proposals require at least 5 days for review. New features are additions or amendments to expected behavior, which have not been previously been identified for the current draft or candidate release.
 
-The Review & Approval process implies that all the contributions need to be accepted by the Working Group.
+While Working Group Chairpersons and their authorized delegates are responsible for overseeing these review periods, all Working Group participants are expected to respect the review guidelines and participate in good faith. 
 
+**Approval Criteria**
+A contribution is considered approved and therefore it can be merged if:
+  * The contribution has not received any sustained objections during the review period, AND
+  * At least {{3}} reviewers have indicated that they agree with the contribution
+  
+**Comments and Objections**
+Working Group Participants may raise comments or objections during the review & approval process.
 
-#### Review & Approval Process
-* **Review period**:
-    * Period of time during which the contribution will be under review before being merged.
-      * The period can be: 0, 1, 2, 3, 5, 7, 14 days
-      * 0 days imply that the contribution is merged without Working Group review
+Any Working Group Participant or authorized Non-Member stakeholder may comment on contributions. All comments should be taken into consideration, but they don't all have to be addressed; the contribution's author(s) or the Working Group Chairperson may exercise discretion when choosing to incorporate relevant comments. In any case, in order to merge the contribution at least {{3}} reviewers MUST indicate that they agree with the contribution. 
 
-* **Comments or Objections**:
-    * During the Review & Approval process members MAY raise **comments** or **objections**.
-      * **Comments** MUST be taken in consideration by the Working Group, but they MAY be dismissed if they group thinks that are not relevant.
+Only Working Group Participants may raise an objection to a contribution. Objections must be taken into consideration by the Working Group and contribution author(s). If a contribution receives an objection, it must be resolved with the objecting party through the consensus process. Sustained objections must be resolved by vote, unless the objecting party rescinds their objection. 
 
-      * **Objections** MUST be taken in consideration and they cannot be dismissed by the Working Group without being reviewed. 
-      * If a contribution receives an **objection** the group MUST resolve the issue, with the person that raise the objection, before deciding the status of the contribution. If the **objection** is sustained, meaning the person doesn’t remove it, then the group will have to recur to a [vote](#voting-on-technical-issues) to resolve it.
+### Roadmap and Release Planning
 
-* **Approval Criteria**:
-    * A contribution is considered **approved** and therefore it can be merged if:
-      * The contribution has not received any sustainable **objection** during the review period, AND
-      * At least 3 reviewers have indicated that they agree with the contribution
-    * If a sustained **objection** is received, the contribution cannot be merged, even if 3 or more contributors agreed with the contribution. 
-    * If during the review period a contribution receives a **comment**, it is up to the group or maintainer to accept the comment or not. In any case, in order to merge the contribution at least 3 reviewers MUST indicate that they agree with the contribution.
+```
+Note: The language in this section - e.g. Milestones, Stories, Epics - comes from common software development methodologies. You are welcome to use language and patterns that are more familiar for your industry or participants. 
+```
 
-#### [Organization_Abbreviation] Process Flows
+Each Working Group's Scope is defined in its Working Group Charter document, part of the Membership Agreement. The Scope typically envision a long term outcome, for which there will be many milestones along the way. Working Groups may collaborate on several different types of deliverables, depending on what was indicated in the Working Group Charter document: specifications, source code, data sets, or other technical documents.  The first task of any Working Group is to build agreement for what should be achieved at each milestone. From there, specification development is the process of continuous development and review until the Working Group agrees that its goals for the scope have been sufficiently met.
 
 #### Work Packages
+Work Packages define scope and expected deliverables to achieve an outcome. They translate end-user requirements into actionable tasks that can be researched and implemented into spec text, source code, datasets, supporting documentation, test suites, etc. in a transparent way. Work Packages are the building blocks for a roadmap to achieve these desired outcomes.
+
+Release Planning is the process through which a single Work Package or a collection of Work Packages are identified for upcoming versions of the specification and/or any supporting reference software. 
+
+Work Packages may be further broken down into Epics, Stories, and Tasks, depending on the size or complexity of the Work Package. This can be useful for translating user needs, business requirements, or customer requests that are not defined in detail.
+
+Work Packages must be approved by the Working Group through the consensus process before they can be developed and included in an upcoming release.
 
 <figure>
-	<img src="images/breakdown.svg" alt="[Organization_Abbreviation] Work Units">
-	<figcaption>[Organization_Abbreviation] Work Units</figcaption>
+	<img src="images/breakdown.svg" alt="Contstruction of Work Packages">
+	<figcaption>Work Package Illustration</figcaption>
 </figure>
 
+### Specification Development Lifecycle
+If the Work Package and Release Roadmap describe what the Working Group will create together and when, the Specification Development Lifecycle describes how. The diagram below illustrates the phases through which the group's objectives and plans are translated into usable technical documents. 
 
-#### Work Package
-* The Work Package (WP) SHALL describe the scope and expected deliverables and SHALL require WG approval
-* WPs are the means by which release packages (version x.y.z) are defined
-
-##### Epics
-* It could be a feature, customer request or business requirement
-* It is recommendable to define a list of Epics that will be formed the release package for the corresponding Work Package
-* The WG SHOULD define a placeholder for each Epic with few lines of description
-* The Epics can be broken down in user stories and tasks which are not defined in detail at the creation of the Work Package
-
-#### Technical Specifications Life Cycle
-
-Note: from `[Organization_Abbreviation]` Scope & Governance
-```
-4. Specification Development Process.
-4.1. Pre-Draft. Any Participant may submit a proposed initial draft document as a candidate Draft Specification of that Working Group. The Maintainer will designate each submission as a “Pre-Draft” document.
-
-4.2. Draft. Each Pre-Draft document of a Working Group must first be Approved to become a ”Draft Specification”. Once the Working Group approves a document as a Draft Specification, the Draft Specification becomes the basis for all going forward work on that specification.
-
-4.3. Working Group Approval. Once a Working Group believes it has achieved the objectives for its specification as described in the Scope, it will submit it to the Steering Committee for its approval.   Any Draft Specification approved by vote of the Steering Committee becomes an “Approved Specification”.
-
-4.4. Publication and Submission. Upon the designation of a Draft Specification as an Approved Specification by the Steering Committee, the Maintainer will publish the Approved Specification in a manner agreed upon by the Steering Committee (i.e., Working Group Participant only location, publicly available location, Working Group maintained website, Working Group member website, etc.). The publication of an Approved Specification in a publicly accessible manner must include the terms under which the Approved Specification is being made available.
-
-4.5. Submissions to Standards Bodies. The Governing Board of the LF Energy Foundation (the “Governing Board”) may submit a Draft Specification or Approved Specification to another standards development organization by vote.  No Draft Specification or Approved Specification may be submitted to another standards development organization without the vote of the Governing Board. Upon an affirmative vote of the Governing Board regarding such a submission, the applicable Maintainer or Maintainers, or any other individuals so directed by the Governing Board, will coordinate the submission of the applicable Draft Specification or Approved Specification to the other standards development organization as directed by the Governing Board. Working Group Participants that developed that Draft Specification or Approved Specification agree to grant the copyright rights necessary to make those submissions.
-
-4.6 Steering Committee.  The Steering Committee is responsible for (a) approval of any Draft Specification as an Approved Specification and (b) alignment among each of the Working Groups of the [Organization_Name] project.  
-
-4.7.  Voting of the Steering Committee and Strategy Committee.  In any vote or Approval before the Steering Committee or Strategy Committee the affirmative vote of at least 50% of the voting members of the Steering Committee or Strategy Committee. The voting members of the Steering Committee and Strategy Committee consist of one appointee from each General Member and each Strategic Member of the LF Energy Foundation of the Linux Foundation.
-```
 <figure>
-	<img src="images/life-cycle.svg" alt="Specifications Life Cycle">
-	<figcaption>Specifications Life Cycle</figcaption>
+	<img src="images/life-cycle.svg" alt="Specification Development Lifecycle">
+	<figcaption>Specification Development Lifecycle</figcaption>
 </figure>
 
-In this section the diagram below depictures the development phases of technical documents.
-<table>
-  <caption>Technical Specifications Development Phases</caption>
-  <thead>
-    <tr>
-	    <th>Phase</th>
-	    <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-	    <td><strong>Work Package</strong></td>
-      <td>In this phase the group agrees the scope of the work to be developed.</br>
-          Any member can provide a new Work Package proposal, the document is discussed among the group and further elaborated.
-          The group will vote whether the Work Package is formally approved and endorsed by the majority of the group or rejected.</br>
-          If the proposal is approved, the Work Package is moved to the next phase, <strong>Technical Development</strong>. </td>
-    </tr>
-    <tr>
-	    <td><strong>Development</strong></td>
-      <td>A Technical Specification MAY be composed of one or more documents:
-        <ul>
-          <li><strong>Requirements Document</strong>, (RD)</li>
-            <ul><li>It contains the business requirements (non technical requiremnts). The business requirements are derived from the Use Cases described in the <strong>RD</strong> document.</li></ul>
-          <li><strong>Architecture Document</strong>, (AD)</li>
-            <ul><li>Document that describes all functional elements of the system and its interfaces or reference points.</li></ul>
-          <li><strong>Technical Specification Document(s)</strong>, (TS)</li>
-            <ul><li>It refers to a set of documented requirements to be satisfied by a material, design, product, or service. It helps to understand the configuration and architecture of a system.</li></ul>
-          <li><strong>Supporting Document(s)</strong>, (SUP)</li>
-            <ul><li>Contains profile data, metadata, schemas, etc.</li></ul>
-        </ul>
-        <strong>Note:</strong> in some cases the group MAY agree to develop a single document that contains the above list as sections.
-        Each document will follow the phases described in the above diagram.
-      </td>
-   </tr>
-   <tr>
-	    <td><strong>Consistency Review</strong></td>
-	    <td>In this phase, the document(s) developed by the WG are formally reviewed by the group. A Review period is open for members to submit their comments. After this period, the Working Group will address the issues received. </td>
-   </tr>
-      <tr>
-	    <td><strong>WG Approval</strong></td>
-	    <td>Once the WG completes the  <strong>Consistency Review</strong> the document(s) MUST be agreed by the WG (in a <strong>Review & Approval</strong>) before sending the document(s) to the Steering Committee for formal <strong>Ratification</strong>.</td>
-   </tr>
-   <tr>
-	    <td><strong>Ratification</strong></td>
-	    <td>Once the WG approves the document(s), the document(s) are sent to the Steering Committee for   <strong>Ratification</strong>.</td>
-   </tr>   
-   <tr>
-	    <td><strong>Publication | Maintenance</strong></td>
-	    <td>Upon Steering Committee <strong>Ratification</strong>, the document(s) are ready for <strong>Publication</strong>.
-      <ul>
-        <li>To publish the document(s), the Maintainer will create a new Release Tag.
-        <li>A new <strong>Release Tag</strong> will be produce with the content in the "main" branch and stored in the Release section of the GitHub repository.</li>
-        <li>The WG SHOULD open a *dialogue* with the public via <strong>GitHub Discussions</strong>.</li>
-        <li>The input collected during the <strong>Maintenance</strong> phase SHOULD be used to improve the Technical Specifications as well as to collect business requirements for future releases.</li>
-       </ul>
-      </td>
-   </tr>   
-  </tbody>
-</table>
+#### Draft Deliverable Development - Guidelines for [Appendix A Section 4.1]()
+
+**Work Package Definition**
+In this phase, the group defines the work to be done in a given Draft deliverable - described above as a Work Package. Any Member may submit a new Work Package proposal. The proposal is discussed and refined collaboratively, after which the Working Group decides to either approve or reject it. If approved, the Work Package moves to the Development phase.
+
+**Specification Development**
+Work Packages are implemented as a series of changes to the specification document(s). Specifications consist of one or more documents, packaged separately or together as needed. Contributors should take care to ensure that changes are complete. For example, if a Work Package requires a change to the spec text, that change may also need to be reflected in a conformance document, reference implantation, or non-normative example. 
+
+* Requirements Document: Contains the business (non-technical) requirements, derived from the Use Cases described in this document.
+* Architecture Document: Describes the system’s functional elements and their interfaces or reference points.
+* Technical Specification Document(s): Defines the detailed requirements to be met by a material, design, product, or service. These documents clarify the system’s configuration and architecture.
+* Supporting Document(s): Includes profile and conformance data, metadata, schemas, and other supplemental information.
+
+**Consistency Review**
+When the Specification Development stage is complete, or very near completion, the Working Group will formally review the document(s). The purpose of this review period is to catch any gaps, errors, or issues, and to submit comments. Consistency review may also be used for reviewing the specification materials through a specific perspective, for example for Security or Accessibility. Consistency review is a thorough process that takes some time - Working Groups should be sure to include at least a two week consistency review period in their release timelines. 
+
+The Consistency Review period is also an appropriate time to address specification formatting comments or issues, as style or editorial guidelines have a tendency to drift during the Development phase.
+
+#### Working Group Approval - Guidelines for [Appendix A Section 4.2]()
+After the Consistency Review period concludes, the Working Group must address any comments raised during this period. When all comments have been addressed, the document(s) will be eligible to become a Working Group Approved Draft Deliverable per Section 4.1 of the Membership Agreement. 
+
+#### Final Approval - Guidelines for [Appendix A Section 4.3]()
+No sooner than 30 days after the the Working Group approves the document(s) as a Working Group Approved Draft Deliverable, the document(s) may be sent to the Steering Committee for Final Approval.
+
+#### Publication - Guidelines for [Appendix A Section 4.4]()
+Once the Steering Committee has approved a Final Deliverable, the document(s) will be published in the following manner: 
+
+* To publish the document(s), the Maintainer will create a new Release Tag.
+* A new Release Tag will be produce with the content in the "main" branch and stored in the Release section of the GitHub repository.
+* Any announcements or notifications - be it through Project Mailing Lists, social media posts, newsletters, or other channels - should be coordinated by the Members.
+* Any forums to collect public input or feedback on the material, such as through a release discussion in GitHub or other forum, should be created and monitored. 
+* The input collected during the Maintenance phase may be used to improve the Technical Specifications as well as to collect business requirements for future releases.
+
+### Guidelines for {{PLATFORM}} Workflow (optional)
+```
+Note: This section assumes that your project will leverage a git-based development methodology. Remove this section if your Project will not be using a git-based version control system for development (GitHub, Gitlab, etc). Consider amending this section to reflect any platform-specific development guidelines your project will need to ensure all Members are able to contribute and review materials in a consistent manner. 
+```
 
 <figure>
 	<img src="images/dev-process.svg" alt="[Organization_Abbreviation] Technical Specifications Development Phases">
 	<figcaption>[Organization_Abbreviation] Technical Specifications Development Phases</figcaption>
 </figure>
 
-### GitHub Flows
-It is suggested to follow the principles of [Trunk Based Development](https://trunkbaseddevelopment.com/) whenever is possible. 
+The project has selected {{PLATFORM}} to maintain its source of truth for the specification development process. The diagram below illustrates how contributions and discussions proceed through the specification development lifecycle via {{PLATFORM}}. It may be amended from time to time as new efficiencies or features are developed.
 
-<figure>
-	<img src="images/Git-Flow-2.svg" alt="[Organization_Abbreviation] Git Flow">
-	<figcaption>[Organization_Abbreviation] GitHub Flow</figcaption>
-</figure>
+#### {{PLATFORM}} Access Rights
+
+The table below outlines permission levels in {{PLATFORM}} based on project role. Permission exceptions may be made on a case by case basis with Approval from the Working Group or Committee. Platform access should be audited on an annual basis.
+
+```
+Note: If you have added any additional Working Group or Committee Roles in the Roles and Expectations section, add them to the table. Customize the section GitHub Teams or other features.  
+```
 
 <table>
-  <caption>GitHub Work Flow - Public Repositories</caption>
-  <thead>
-    <tr>
-	    <th>Branch</th>
-	    <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-	    <td><i>Rel vX.Y.Z</i></td>
-      <td>Release-tag's contain all the different versions of the Technical Specifications that have been approved by the Working Group and ratified by the Technical Steering Committee. The name of the release tag will follow [Semantic Versioning](#semantic-versioning) principles.</td>
-   </tr>
-    <tr>
-	    <td><i>main</i></td>
-      <td>This branch contains the latest version of the Technical Specfication approved by the Working Group. Its content will be moved into a release-tag, afer the <strong>Consistency Review</strong> and Technical Steering Committee <strong>Ratification</strong> phases.</td>
-   </tr>
-  </tbody>
-</table>
-
-### GitHub Access Rights
-<table>
-  <caption>GitHub Access Rights</caption>
+  <caption>{{PLATFORM}} Access Rights</caption>
   <thead>
     <tr>
 	    <th>Role</th>
-	    <th>Access Rights</th>
+	    <th>Platform Permission Level</th>
+      <th>Requirements</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Participants</td>
-      <td><i>TRIAGE</i> - Can read and clone this repository. Can also manage issues and pull requests.</td>
+      <td>Working Group or Committee Participant</td>
+      <td>May be added to the {{PLATFORM}} and Working Group or Committee repository or team at the <i>TRIAGE</i> level.</td>
+      <td>Must complete Project Onboarding steps before permissions are granted. Must enable 2FA.</td>
    </tr>
     <tr>
-      <td>Editors</td>
-      <td><i>WRITE</i> -  Can read, clone, and push to this repository. Can also manage issues and pull requests.</td>
+      <td>Working Group or Committee Chairpersons</td>
+      <td>Must be added to the {{PLATFORM}} and Working Group or Committee repository or team at the <i>WRITE</i> level. </td>
+      <td>Must complete Project Onboarding steps before permissions are granted. Must enable 2FA. Must take {{PLATFORM}} Training.</td>
    </tr>
    <tr>
-      <td>Maintainer</td>
-      <td><i>ADMINISTRATOR</i> - Can read, clone, and push to this repository. They can also manage issues, pull requests, and some repository settings.</td>
+      <td>Editors</td>
+      <td>Must be added to the {{PLATFORM}} and Working Group repository or team at the <i>MAINTAIN</i> level.</td>
+      <td>Must complete Project Onboarding steps before permissions are granted. Must enable 2FA. Must take {{PLATFORM}} Training.</td>
+   </tr>
+      <tr>
+      <td>Steering Committee Chairperson(s)</td>
+      <td>Must be added to the {{PLATFORM}} at the <i>ADMINISTRATOR</i> level.</td>
+      <td>Must complete Project Onboarding steps before permissions are granted. Must enable 2FA. Must take {{PLATFORM}} Training.</td>
+   </tr>
+   </tr>
+      <td>Non-Members</td>
+      <td>May be added to the {{PLATFORM}} at the <i>READ</i> level with Approval from the Working Group.</td>
+      <td>Must enable 2FA. Must take {{PLATFORM}} Training.</td>
    </tr>
   </tbody>
 </table>
 
-## Final Publication and Advancement Guidelines
-There are at least three different options to publish content using GitHub:
-<figure>
-	<img src="images/publication-2.svg" alt="Publication">
-	<figcaption>Publication</figcaption>
-</figure>
+#### {{PLATFORM}} Workflow Process
 
-##### Documentation
-##### Semantic Versioning
+**Semantic Versioning Guidelines**
+The project will follow [Semantic Versioning](https://semver.org/) Guidelines to effectively track work and stage it for approval or advancement.
 
 <figure>
 	<img src="images/semantic-versioning.svg" alt="Semantic Versioning">
-	<figcaption>Semantic Versioning</figcaption>
 </figure>
 
 <table>
-  <caption>Document Version</caption>
   <thead>
     <tr>
 	    <th>Field</th>
@@ -734,153 +617,137 @@ There are at least three different options to publish content using GitHub:
   <tr>
     <td>X</td>
     <td><i>Major Version Indicator</i></td>
-    <td>This mandatory field SHALL identify the major version of the document as determined by the WG.
-      Major versions contain major feature additions; MAY contain incompatibilities with previous document or specification revisions; and MAY change, drop, or replace existing interfaces. Initial releases are “1_0”.
+    <td>This mandatory field SHALL identify the major version of the document as determined by the Working Group.
+      Major versions contain major feature additions; MAY contain incompatibilities with previous document or specification revisions; and MAY change, drop, or replace existing interfaces. Initial releases are “1.0”.
     </td>
   </tr>
   <tr>
     <td>Y</td>
     <td><i>Minor Version Indicator</i></td>
-    <td>Minor version of the document. This mandatory field SHALL identify the minor version of the document. It is incremented every time a minor change is made to the approved document version. Minor versions MAY contain minor feature additions, be compatible with the preceding Major_Minor specification revision, and MAY provide evolving interfaces. The initial minor release for any major release is “0”, i.e. 1_0</td>
+    <td>This mandatory field SHALL identify the minor version of the document. It is incremented every time a minor change is made to the approved document version. Minor versions MAY contain minor feature additions or clarifications, be compatible with the preceding Major_Minor specification revision, and MAY provide evolving interfaces. The initial minor release for any major release is “0”, i.e. 1.0</td>
    </tr>
    <tr>
     <td>Z</td>
     <td><i>Service Indicator</i></td>
-    <td>Service indicator for the document. Incremented every time a corrective update is made to the <strong>Approved</strong> (not draft) document version by the WG.
-    This field is OPTIONAL, and SHALL be provided whenever a service release of the document is made. The first service indicator release SHALL be “_1” for any Major_Minor release.
-    Service indicators are intended to be compatible with the Major_Minor release they relate to but add bug fixes. No new functions will be added through the release of Service Indicators.
+    <td>Incremented every time a corrective update is made to the <strong>Approved</strong> (not draft) document version by the WG.
+    This field is OPTIONAL, and SHALL be provided whenever a service release of the document is made. The first service indicator release SHALL be “.1” for any Major_Minor release. Service indicators are intended to be compatible with the Major_Minor release they relate to but add bug fixes. No new functions will be added through the release of Service Indicators.
     </td>
   </tr>
   </tbody>
 </table>
 
-### Notice Requirements and IPR Review Guidelines
+**Contributions and Branching**
 
-#### Copyright
-This section provides a recommendation based on the best practice implemented by other projects.
+Contributions in the platform should follow [Trunk Based Development](https://trunkbaseddevelopment.com/) patterns (see diagram below). 
 
-Most LF project communities do not require or recommend that every contributor include their copyright notice in contributed files.
+<figure>
+	<img src="images/Git-Flow-2.svg" alt="Platform Workflow">
+	<figcaption>Platform Workflow</figcaption>
+</figure>
 
-Instead, many LF Project communities recommend using a more general statement in a form similar to the following: (choose one)
+Working Groups and Committees should use the the following branching guidelines for their repositories:
 
-* `Copyright The [Organization_Name] Authors.`
-* `Copyright The [Organization_Name] Contributors.`
-* `Copyright Contributors to the XYZ project.`
+<table>
+  <caption>Branch Guidelines for Repositories</caption>
+  <thead>
+    <tr>
+	    <th>Branch</th>
+	    <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+	    <td><i>Rel vX.Y.Z</i></td>
+      <td>Release tags contain all the different versions of the specifications that have been approved by the Working Group or Steering Committee. The name of the release tag will follow [Semantic Versioning](#semantic-versioning) principles.</td>
+   </tr>
+    <tr>
+	    <td><i>main</i></td>
+      <td>This branch contains the latest version of the Technical Specification approved by the Working Group. Its content will be moved into a release-tag, afer the <strong>Consistency Review</strong> and Technical Steering Committee <strong>Ratification</strong> phases.</td>
+   </tr>
+  </tbody>
+</table>
 
-These statements are intended to communicate the following:
+**Requirements for Issues, Pull Requests, Discussions, and Project Management Tracking**
 
-* the work is copyrighted;
-* the contributors of the code licensed it, but retain ownership of their copyrights; and
-* it was licensed for distribution as part of the `[Organization_Name]`.
 
-With any of the above statements, the project avoids having to maintain lists of names of the authors or copyright holders, years or ranges of years, and variations on the (c) symbol.
-This aims to minimize the burden on the contributors and maintainers.
-
-This section provides a recommended format for easy of use, but it is not mandated.
-
->Note: You may consider to discuss with your legal department about whether they require you to include a copyright notice identifying the employer as the copyright holder in contributions. Many of LF members' legal departments have already approved the above 
-recommended pratice.
-
-#### Reasons to Avoid Listing Copyright Holders
-These are some of the reasons why `[Organization_Abbreviation]` does not recommend trying to list every copyright holder for contributions to every file:
-
-* Copyright notices are not mandatory in order for the contributor to retain ownership of their copyright.
-* Copyright notices are rarely kept up to date as documentation evolves, resulting inaccurate statements.
-* Trying to keep notices up to date, or to correct notices that have become inaccurate, increases the burden on editors and maintainers without tangible benefit.
-* Editors and maintainers often do not want to have to worry about e.g. whether a minor contribution (such as a type fix) means that a new copyright notice should be added.
-
-#### Other Copyright Rules
-* If your contribution contains content from a third party source who didn't contribute it themselves, then you should not add the notice above. 
-* You should not change or remove someone else's copyright notice unless they have expressly (in writting) permitted you to do so.
-
-#### Licenses
-This section provides a recommendation on how to communicate software or document licenses information in a project.
-
-#### Software Code Licenses
-
-Ideally, the project SHOULD communicate the software license information via three different metods:
-
-* In the README file
-* Inside of the repository with a ```License.txt``` document
-* Inside of each code file created by the group
-
-#### Statement in README File
-Insert in the README file the MIT License:
+## Publication and Collaboration Guidelines
 
 ```
+Note: This section should be updated to reflect any project-specific practices or requirements for publishing Approved Working Group documents. If there are custom tools, for example tools that generate the documents in multiple formats, or tools that ensure specific editorial requirements are in place, those should be included below. 
+```
+Approved Final Deliverables must be published in {{PDF, LaTEX, MD, etc}} on the Project website and must follow the [specification template](). All published deliverables must:
+
+* Include the Document status as either a Working Group Draft, Working Group Approved Draft, or Final deliverable
+* Include the Legal Disclaimer (See Additional Resources and Reference Materials)
+* Include the copyright notice (See Additional Resources and Reference Materials)
+* Include the publication date
+* Be published on a stable URL
+
+Published Source Code materials must include:
+* a LICENSE.md file in the source repository
+* SPDX License Headers for each file - see [SPDX short-form license identifiers](https://spdx.dev/ids/)
+* a shield.io badge for the license in the README, e.g. 
+
 ![APM license](https://img.shields.io/badge/License-MIT-brightgreen)
 
-```
+### Collaboration with other Standards Developing, Open Source, or Industry Organizations
 
-The README file will display:
+**Memorandums of Understanding**
+The Project welcomes opportunities to collaborate with other Member-based organizations under the terms of a mutually agreed Memorandum of Understanding (MOU). This section defines the requirements for defining and approving an MOU. 
 
-* ![APM license](https://img.shields.io/badge/License-MIT-brightgreen)
+All MOUs must:
+* Originate on the {{PROJECT-NAME}}'s MOU template paper
+* Include designated points of contact
+* Include the scope and goals of the collaboration
+* Indicate which specific Working Groups, Events, Meetings, or Deliverables will be involved
+* Include a date by which the collaboration will be reviewed and renewed or terminated
+* Go through legal review prior to signature
 
-In addition, it is recommended to include a plain text statement of the license in the README file, for accessibility purposes as well as enabling parsing by automated tooling. This can be done by including a "License" section with:
+**Advancement of Deliverables**
+A Final Deliverable may be adopted for publication by a national or international standards development organization. As this path may incur financial or maintenance costs for the organization, Steering Committee Approval is required. Additionally, Specifications intended to be advanced through the ISO / IEC JTC 1 PAS process must be approved by Joint Development Foundation Projects.  
 
-* This project is licensed under the MIT license.
+### Notice Requirements and IPR Policies
 
-#### License File in the Repository
-Insert in the repository a file called ```License.txt```. 
+#### Notice Requirements
 
-The Maintainer can copy the corresponding license file from the [templates/license]() repository and upload it to the project repository.
+**Types of Notices**
 
+* IPR Review Period Notices
+* Exclusion Notices
+* Publication Notices
+* Withdrawal Notices
+* Security Disclosure
+* Legal Notices
 
-#### License Reference in each Source Code File
-The recommendation is that projects SHOULD use [SPDX short-form license identifiers](https://spdx.dev/ids/) in all source code and documentation files that are **original to the project**.
+**Publishing Notices**
+The Working Group Chairperson(s) is responsible for publishing notices.
 
+#### IPR Policies
+All Working Groups must adhere to the copyright and patent policies indicated in the Working Group Charter. Questions about these specific policies or questions about incorporating linked libraries, 3rd Party Software, License compatibility, or binary distributions should be addressed by the Working Group Member Participants and Member Legal Counsel. If the Working Group is unable to arrive at an answer, the Steering Committee may address the question or seek a legal opinion on behalf of {{PROJECT-NAME}}.
 
-Each source code created by the project SHOULD have one of these SPDX license identifiers: (depending on the type of source code license allocated to the project)
+Working Groups may request a change to their patent or copyright policy. All changes must be reviewed and approved by the Steering Committee, and Notice must be provided to Joint Development Foundation Projects and all Members. Depending on the nature of the changes and the status of the Working Group's deliverables, licensing changes may result in the creation of a new Working Group. 
 
-* **for an MIT license:**
+The Trademark Policy is located at ___. The brand and logo usage guidelines are located at ____.
 
-```
-# SPDX-License-Identifier: MIT
-# Copyright Contributors to the [Organization_Name]
-```
+IPR and other Legal questions should be sent to ____. 
 
-If the project needs to include source code or documents from a different upstream project, the recommendation is to retain those files in **unmodified form**  _**(don't add identifiers)**_.
+## Additional Resources and Reference Materials
 
-Also consider to:
+### Project Templates
 
-* keep these files in sync with the upstream project
-* ask the upstream project to insert the identifiers on their source code files / documents.
+* [Presentation Template]()
+* [Specification Template]()
+* [Agenda and Meeting Minutes Template]()
 
-#### [Organization_Name] Software License Policy
-This policy is intended to assist `[Organization_Name]` Technical Working Groups to handle Software Licenses in the Projects.
+### Project Onboarding and Training
 
-#### Recommended SafeGuards
-**1. Escalation Path**
+All Member Participants must familiarize themselves with the following materials: 
 
-  - Any question about licensing should be resolved by the Working Group (WG), if the WG cannot resolve it, then the question can be sent to the Technical Steering Committee (TSC)
-      - LF doesn’t provide legal advice or comments about license compatibility (unless LF identifies some clear incompatibilities)
-      - The Steering members may need to involve their Legal Counsel to make a license decision
-      - Only the TSC can decide if a component created by the Project can be delivered under a different license than the Project License
-
-**2. Linked Libraries & 3 Party Software**
-
-  - It is not recommended to pull software code, under different license than the Project License, into the project repository. Use linked libraries instead.
-  - If 3rd party software is embedded, it should be under the Project License. If different licenses are used, then create a NOTICE file listing all the 3rd party license notice.
-  - As a rule, if a software code developed by `[Organization_Name]` has an external dependency to a code distributed under GPL 2.0, then `[Organization_Name]` members need to consult with their legal counsel to decide under what license the `[Organization_Name]` software code should be released. In other words, if the code developed by `[Organization_Name]` doesn’t work without the reference to the external code under GPL 2.0, then the license to release the `[Organization_Name]` code should be evaluated.
-
-**3. License Compatibility**
-
-  - Any upstream license needs to be compatible with the Project License
-  - Any copyleft license inserted in a project repository needs to be flagged to the Organization Team
-
-**4. Binary Distribution**
-
-  - It is a good practice to point users to the libraries so they can compile them on their own
-  - If the group decides to ship binaries, the binaries should be ONLY for the code developed under the Project License.
-  - If there are any other binaries under different license, then each binary should be distributed in its own files. Binaries under a license different than the Project License CANNOT packed with the same binaries than the ones created by the group
-  
-#### Technical Document License
-In projects where the main deliverables are technical documents, each document MUST have a legal disclaimer.
-
-The legal disclaimer to insert in each project document SHOULD be:
+**Legal Disclaimer Text for Published Documents**
+The legal disclaimer to insert in each publicly published document is:
 
 ```
-© `[Organization_Abbreviation]` 2022, All rights reserved.
+© `{{PROJECT-NAME}}` {{YEAR}}, All rights reserved.
 
 “THESE MATERIALS ARE PROVIDED “AS IS.”  The parties expressly disclaim any warranties 
 (express, implied, or otherwise), including implied warranties of merchantability, non-infringement, 
@@ -894,19 +761,7 @@ BASED ON BREACH OF CONTRACT, TORT (INCLUDING NEGLIGENCE), OR OTHERWISE, AND WHET
 THE OTHER MEMBER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.”
 ```
 
+**Project Copyright Notice**
+The copyright notice to include on project deliverables is:
 
-## Additional Resources and Reference Materials
-### Documents
-
-* [Dictionary]()
-* [Templates]()
-
-### Collaboration Tools
-* [Groups.io]()
-### GitHub
-* [[Organization_Abbreviation] GitHub Training Material]()
-* [Issue Creation](https://help.github.com/en/github/managing-your-work-on-github/creating-an-issue)
-* [Creation Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
-* [Managing Project Boards](https://help.github.com/en/github/managing-your-work-on-github/managing-project-boards)
-
-
+`Copyright Contributors to {{PROJECT-NAME}}.`
