@@ -36,7 +36,7 @@ This material is further designed to be compatible with projects using governanc
 
 ## 🧰 Key Templates
 
-- **Project Charter:** Defines the project's scope, mission, and structure.
+- **Project Charter:** Defines the project's scope, mission, structure, and licensing terms.
 - **Governance Model:** Outlines decision-making, voting, and membership rules.
 - **Participation Guidelines:** Sets expectations for contributors and stakeholders.
 - **Change Process:** Documents how proposals and updates are introduced and approved.
