@@ -20,7 +20,7 @@ This material is further designed to be compatible with projects using governanc
 2. **Rename your fork** to reflect your project name (e.g., `myproject-operational-process-document`).
 3. **Customize the templates**:
     - Replace placeholders like `{{PROJECT_NAME}}`, `{{YEAR}}`, and `{{CONTACT_EMAIL}}`.
-    - Use our [Getting Started Checklist](./Process_Documents/getting-started-checklist.md) to tailor the information for your project.
+    - Use our [Getting Started Checklist](./Resources/getting-started-checklist.md) to tailor the information for your project.
 4. **Commit your changes** and share with your stakeholders for review.
 
 > 💡 **Tip:** Search for `{{` in the repo to find all fields needing customization. You can speed this up by using a find-and-replace tool or by running a simple setup script (see below for an example).
