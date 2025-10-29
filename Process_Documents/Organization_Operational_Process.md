@@ -493,7 +493,7 @@ Work Packages may be further broken down into Epics, Stories, and Tasks, dependi
 Work Packages must be approved by the Working Group through the consensus process before they can be developed and included in an upcoming release.
 
 <figure>
-	<img src="images/breakdown.svg" alt="Contstruction of Work Packages">
+	<img src="images/breakdown.svg" alt="Construction of Work Packages">
 	<figcaption>Work Package Illustration</figcaption>
 </figure>
 
@@ -662,7 +662,7 @@ Working Groups and Committees should use the the following branching guidelines 
    </tr>
     <tr>
 	    <td><i>main</i></td>
-      <td>This branch contains the latest version of the Technical Specification approved by the Working Group. Its content will be moved into a release-tag, afer the <strong>Consistency Review</strong> and Technical Steering Committee <strong>Ratification</strong> phases.</td>
+      <td>This branch contains the latest version of the Technical Specification approved by the Working Group. Its content will be moved into a release-tag, after the <strong>Consistency Review</strong> and Technical Steering Committee <strong>Ratification</strong> phases.</td>
    </tr>
   </tbody>
 </table>

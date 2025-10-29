@@ -6,6 +6,14 @@ This material is further designed to be compatible with projects using governanc
 
 ---
 
+## 👥 Who Should Use This
+
+- **New JDF Projects or affiliated projects** looking to establish operational clarity
+- **Working groups** developing technical specifications or open standards
+- **Maintainers and coordinators** formalizing governance and participation processes
+
+---
+
 ## 🚀 Quick Start
 
 1. **Fork this repository** into your organization or working group’s GitHub account.
@@ -24,30 +32,24 @@ This material is further designed to be compatible with projects using governanc
 | File/Directory                                  | Description                                                                 |
 |-------------------------------------------------|-----------------------------------------------------------------------------|
 | `/Process_Documents/`                           | Core templates for project operations                                       |
-| `/Diagrams/`                                   | Editable diagram sources (draw.io format)                                   |
-| `.github/`                                     | Optional GitHub configurations like issue templates and contribution guides |
-| `README.md`                                    | Overview and guidance for customizing the repo                              |
-| `LICENSE`                                      | Open source license under which the templates are shared                    |
-| `index.yaml`                                   | Canonical links and references for your project                             |
-| `getting-started-checklist.md`                  | [Checklist for adapting these templates](./Process_Documents/getting-started-checklist.md) |
-| `Glossary.md` / `Glossary & Terms`              | Informational document containing terms common in standards development     |
+| `/Diagrams/`                                    | Editable diagram sources (draw.io format)                                   |
+| `/Resources/`                                   | Non-normative links, guides, and material                                   |
+| `.github/`                                      | Optional GitHub configurations like issue templates and contribution guides |
+| `README.md`                                     | Overview and guidance for customizing the repo                              |
+| `index.yaml`                                    | Optional config file to publish templates in different formats              |
+| `getting-started-checklist.md`                  | Checklist for adapting these templates                                      |
 
 ---
 
-## 🧰 Key Templates
+### 🧰 Key Documents
 
-- **Project Charter:** Defines the project's scope, mission, structure, and licensing terms.
-- **Governance Model:** Outlines decision-making, voting, and membership rules.
-- **Participation Guidelines:** Sets expectations for contributors and stakeholders.
-- **Change Process:** Documents how proposals and updates are introduced and approved.
+- **Organization Operational Process Document:** Outlines the day-to-day practices of governance and decision-making the project will follow.
+- **Checklist for Working Group Chairs:** Provides additional guidance and best-practice suggestions for WG leaders.
 
----
+### Not Included:
 
-## 👥 Who Should Use This
-
-- **New JDF Projects or affiliated projects** looking to establish operational clarity
-- **Working groups** developing technical specifications or open standards
-- **Maintainers and coordinators** formalizing governance and participation processes
+- Membership and IPR Agreements - please contact your Project's legal parent for the versions of these agreements that should be made available in your project's workspaces.
+- Other legal or compliance policies such as Trademark, Brand, Privacy, Terms of Use, or Code of Conduct - these should also be made available by the Project's legal parent.
 
 ---
 
