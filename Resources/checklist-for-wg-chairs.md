@@ -1,11 +1,11 @@
-## Appendix - Checklist for Working Groups Chairs
+## Checklist for Working Group Chairs
 
 ### General Roles of Officers
 
 - [ ] The chair has overall responsibility for the management of the group
 - [ ] Co-chairs can provide full cover for the Chair - the intent being continuity of leadership to the group
 - [ ] Chairs and co-chairs are to behave as a single team generating the group's vision
-- [ ] Co-chairs provide the chair with a 2nd pair of eyes and ears to guage the meeting
+- [ ] Co-chairs provide the chair with a 2nd pair of eyes and ears to gauge the meeting
 - [ ] Officers have to have visibility of all officers' communications to ensure transparency in the leadership 
 (e.g. a leadership mailing list)
 - [ ] Chair needs to drive the co-chairs' support
@@ -16,7 +16,7 @@
 followed. Where there is doubt, seek advice from the parent group chair or ORG Team Officers as appropriate.
 - [ ] Read, understand and follow any other related OMP procedures and guidelines.
 - [ ] Familiarize themselves with IPR and Anti-Trust laws.
-- [ ] Ensure execution and fulfilment of the mandate bestowed on the group through its charter and assigned work packages.
+- [ ] Ensure execution and fulfillment of the mandate bestowed on the group through its charter and assigned work packages.
 - [ ] Work closely with the officers of the parent group to ensure the integrated approach required for OMP is achieved. 
 - [ ] Inform the parent group if the work of the group has been completed and recommend closure of the group.
 - [ ] Interact with other groups as may be necessary to fulfil the group's own or another group's, charter and work packages.
@@ -40,9 +40,9 @@ followed. Where there is doubt, seek advice from the parent group chair or ORG T
 - [ ] Moderate the meeting to ensure the work within the group progresses in a timely manner. 
    * When issues are raised within the meeting that the chair considers editorial and that may result in lengthy discussions, the chair should direct the editor to handle these issues outside the face to face session or conference call session subject to agreement on the resulting changes. 
    * For class Editorial PRs should be pre-reviewed, then in the meeting the chair should  seek agreement and  direct the editor to incorporate them in the document  without further discussion during the meeting (unless non-editorial issues are raised). 
-- [ ] Organise and run the meetings in accordance with the processes and procedures of OMP as defined in the OMP "Rules of Engagement" and other guidelines, and ensure that all rules are followed. 
+- [ ] Organize and run the meetings in accordance with the processes and procedures of OMP as defined in the OMP "Rules of Engagement" and other guidelines, and ensure that all rules are followed. 
    * Where there is doubt, seek advice from the parent group chair or ORG Officers as appropriate.
-- [ ] Issue a call for meeting agenda items in a timely manner as defined in the "Rules of Enagagement".
+- [ ] Issue a call for meeting agenda items in a timely manner as defined in the "Rules of Engagement".
 - [ ] Ensure that an agenda is prepared for every meeting (face to face or by conference call).
 - [ ] When scheduling non-face-to-face real-time meeting such as phone conference, have in consideration the time zone of the participants.
 - [ ] Issue meeting agendas to fulfil the groups charter and work packages.
@@ -57,7 +57,7 @@ followed. Where there is doubt, seek advice from the parent group chair or ORG T
 ### Administrative Aspects
 
 - [ ] Ensure the technical activities of the group are progressed in a timely manner in accordance with the processes and procedures defined in the "Rules of Engagement".
-- [ ] Organise and run the meetings in accordance with the processes and procedures of OMP as defined in the OMP "Rules of Engagement" and other documents, and ensure that all rules are followed. Where there is doubt, seek advice from the parent group chair or ORG Officers as appropriate.
+- [ ] Organize and run the meetings in accordance with the processes and procedures of OMP as defined in the OMP "Rules of Engagement" and other documents, and ensure that all rules are followed. Where there is doubt, seek advice from the parent group chair or ORG Officers as appropriate.
 
 ### Technical Aspects
 
