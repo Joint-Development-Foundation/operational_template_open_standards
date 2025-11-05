@@ -48,4 +48,4 @@ This material is provided to support open standards efforts and is intended for 
 
 ---
 
-For questions, suggestions, please contanct Joaquin Prado, [jprado@linuxfoundation.org](mailto:jprado@linuxfoundation.org) or contributions, feel free to open an issue or pull request.
+For questions, suggestions, please contact Joaquin Prado, [jprado@linuxfoundation.org](mailto:jprado@linuxfoundation.org) or contributions, feel free to open an issue or pull request.
