@@ -11,36 +11,26 @@ The `open-standards.drawio` file is a multi-page diagram source created using [d
 
 ## 🧩 What Does It Contain?
 
-The file includes a series of visual diagrams that illustrate the lifecycle, structure, and collaboration methods typical in open standards development. These diagrams can be customized and extended to fit the specific governance model of your organization.
+The file includes a series of visual diagrams that illustrate the lifecycle, structure, and collaboration methods typical in open standards development. These diagrams can be customized and extended to fit the specific governance model or development process of your organization. Check out the [`/images`](../Process_Documents/images/) directory to see example .svg files you can generate.
 
-### Included Diagrams
+### 🛠️ Recommended Usage
 
-- **Standards Organization Structure** – Visual breakdown of how working groups, steering committees, and contributors interact
-- **Specification Lifecycle** – Overview of how specifications evolve from proposal to final release
-- **Work Item Creation** – Flow for initiating new technical work
-- **Review and Approval Process** – Mapping feedback, approvals, and objections to decisions
-- **Release Scope Management** – Defining and locking scope for release cycles
-- **Semantic Versioning Strategy** – Recommended practices for versioning specifications and schema changes
-- **Release Planning Process** – Coordination timeline from planning to publishing
-
-## 🛠️ How to Use
-
-Project managers, working group chairs, and contributors can use these diagrams to:
+Project managers, working group chairs, editors, administrators and contributors can use these diagrams to:
 
 - Establish or refine internal development workflows
-- Align teams on terminology, roles, and process expectations
-- Present lifecycle and governance models to stakeholders or new contributors
-- Support onboarding, training, and documentation efforts
+- Align participants on terminology, roles, and process expectations
+- Present change management proposals to stakeholders or new contributors
+- Enhance onboarding, training, and documentation efforts
 
-Each diagram can be modified to reflect the unique context of your organization or working group.
+Diagrams can be modified to reflect the unique context of your organization or working group.
 
-## ✅ Recommended Usage
+## ✅ How to Use
 
 1. Open the `open-standards.drawio` file using draw.io or diagrams.net.
 2. Navigate through the diagram pages using the page tab menu.
 3. Customize the diagrams with your group names, review periods, or governance roles.
 4. Export diagrams as PNG, SVG, or PDF for documentation or presentation purposes.
-5. Save the changes back into the `open-standards.drawio` file and submit a Pull Request with the new chagnes.
+5. Save the changes back into the `open-standards.drawio` file and submit a Pull Request with the new changes.
 
 ## 📄 License
 
@@ -48,4 +38,4 @@ This material is provided to support open standards efforts and is intended for 
 
 ---
 
-For questions, suggestions, please contact Joaquin Prado, [jprado@linuxfoundation.org](mailto:jprado@linuxfoundation.org) or contributions, feel free to open an issue or pull request.
+For questions or suggestions, please contact Joaquin Prado, [jprado@linuxfoundation.org](mailto:jprado@linuxfoundation.org). Contributions are also welcome via issue or pull request on this repository.
