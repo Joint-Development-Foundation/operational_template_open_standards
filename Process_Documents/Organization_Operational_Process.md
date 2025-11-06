@@ -8,23 +8,23 @@ Section notes should be deleted once customization is complete. Content in brace
 **Adopted on: __________**
 
 **Table of Contents**
-1. Introduction
-2. Governance
-   * {{PROJECT-NAME}} Organizational Structure
-   * Roles & Expectations
-   * Meeting Policies
-   * Guidelines for Decision-Making
-3. Specification Development and Release Management Process
-   * Review and Approval Guidelines
-   * Roadmap and Release Planning
-   * Specification Development Lifecycle
-   * Guidelines for {{PLATFORM}} Workflow (optional)
-4. Publication and Collaboration Guidelines
-   * Collaboration with other Standards Developing, Open Source, or Industry Organizations
-   * Notice Requirements and IPR Review Guidelines
-5. Additional Resources and Reference Materials
-   * Project Templates
-   * Project Onboarding and Training
+1. [Introduction](#introduction)
+2. [Governance](#governance)
+   * [{{PROJECT-NAME}} Organizational Structure](#project-name-organizational-structure)
+   * [Roles & Expectations](#membership-roles--expectations)
+   * [Meeting Policies](#meeting-policies)
+   * [Decision-Making](#decision-making-practices-and-consensus-guidelines)
+3. [Specification Development and Release Management Process](#specification-development-and-release-management-process)
+   * [Review and Approval Guidelines](#review-and-approval-guidelines)
+   * [Roadmap and Release Planning](#roadmap-and-release-planning)
+   * [Specification Development Lifecycle](#specification-development-lifecycle)
+   * [Guidelines for {{PLATFORM}} Workflow (optional)](#guidelines-for-platform-workflow-optional)
+4. [Publication and Collaboration Guidelines](#publication-and-collaboration-guidelines)
+   * [Collaboration with other Standards Developing, Open Source, or Industry Organizations](#collaboration-with-other-standards-developing-open-source-or-industry-organizations)
+   * [Notice Requirements and IPR Review Guidelines](#notice-requirements-and-ipr-policies)
+5. [Additional Resources and Reference Materials](#additional-resources-and-reference-materials)
+   * [Project Templates](#project-templates)
+   * [Project Onboarding and Training](#project-onboarding-and-training)
 
 ## Introduction
 
