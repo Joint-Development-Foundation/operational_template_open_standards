@@ -1,4 +1,4 @@
-# {{PROJECT-NAME}} Operational Process Document
+# {{PROJECT-FULLNAME}} Operational Process Document
 
 ```
 Note: This document is a template that needs to be customized for your Organization.
@@ -10,7 +10,7 @@ Section notes should be deleted once customization is complete. Content in brace
 **Table of Contents**
 1. [Introduction](#introduction)
 2. [Governance](#governance)
-   * [{{PROJECT-NAME}} Organizational Structure](#project-name-organizational-structure)
+   * [{{PROJECT-SHORTNAME}} Organizational Structure](#project-shortname-organizational-structure)
    * [Roles & Expectations](#membership-roles--expectations)
    * [Meeting Policies](#meeting-policies)
    * [Decision-Making](#decision-making-practices-and-consensus-guidelines)
@@ -28,23 +28,23 @@ Section notes should be deleted once customization is complete. Content in brace
 
 ## Introduction
 
-This Operational Process Document is a living document that outlines the core procedures, roles, and decision-making processes that guide the day-to-day activities of the {{PROJECT_NAME}} community. It is designed to promote transparency, accountability, and consistency in how the project operates, collaborates, and evolves over time.
+This Operational Process Document is a living document that outlines the core procedures, roles, and decision-making processes that guide the day-to-day activities of the {{PROJECT-FULLNAME}} community. It is designed to promote transparency, accountability, and consistency in how the project operates, collaborates, and evolves over time.
 
 Upon Approval of the Steering Committee, this document may be updated periodically to reflect the changing needs of the project and its participants. Updates should be proposed through the project’s defined decision-making process and tracked via version control.
 
 ## Governance
 
-{{PROJECT-NAME}} is a Community Specification License project hosted by {{LEGAL-PARENT}}. Its Governance policy is as set forth in the GOVERNANCE.md file of the Project repositories. In the event of a conflict or inconsistency, the documents shall control in the following order of precedence (from highest to lowest): the terms of the Community Specification License, the {{LEGAL-PARENT}} Technical Project Charter and Series Agreement, and any policies or procedures adopted by the Project as outlined in this Process Document.
+{{PROJECT-FULLNAME}} ({{PROJECT-SHORTNAME}}) is a Community Specification License project hosted by {{LEGAL-PARENT}}. Its Governance policy is as set forth in the GOVERNANCE.md file of the Project repositories. In the event of a conflict or inconsistency, the documents shall control in the following order of precedence (from highest to lowest): the terms of the Community Specification License, the {{LEGAL-PARENT}} Technical Project Charter and Series Agreement, and any policies or procedures adopted by the Project as outlined in this Process Document.
 
-### {{PROJECT-NAME}} Organizational Structure
+### {{PROJECT-SHORTNAME}} Organizational Structure
 
 ```
 Note: Replace this example diagram with your own Organization organigram. 
 ```
 
 <figure>
-	<img src="images/organigram.svg" alt="{{PROJECT-NAME}} Organigram">
-	<figcaption>{{PROJECT-NAME}} Organigram</figcaption>
+	<img src="images/organigram.svg" alt="{{PROJECT-SHORTNAME}} Organigram">
+	<figcaption>{{PROJECT-SHORTNAME}} Organigram</figcaption>
 </figure>
 
 ```
@@ -75,7 +75,7 @@ The Project may have multiple Working Groups, and each Working Group will work w
 Note: This section should be updated each time a new Working or Sub-Working Group is added or removed.
 ```
 
-* {{PROJECT-NAME}} has the following Working Groups:
+* {{PROJECT-SHORTNAME}} has the following Working Groups:
   * Working Group Name 1
     * **Brief Description of Scope:**
     * **Link to Charter:**
@@ -117,13 +117,13 @@ Note: Projects may have one or more Committees to work in areas that support the
 
 ### Membership Roles & Expectations
 
-#### {{PROJECT-NAME}} Membership
+#### {{PROJECT-SHORTNAME}} Membership
 
-{{PROJECT-NAME}} Members are eligible Organizations that have signed the Membership Agreement at the Steering, General, or Contributor level. Members may appoint individual representatives from their Organization or Affiliate to participate in Working Groups and Committees. All Members and their selected representatives are expected to abide by the Code of Conduct, Contributing, Governance, and License policies as set forth in the {{PROJECT-NAME}} Membership Agreement.
+{{PROJECT-SHORTNAME}} Members are eligible Organizations that have signed the Membership Agreement at the Steering, General, or Contributor level. Members may appoint individual representatives from their Organization or Affiliate to participate in Working Groups and Committees. All Members and their selected representatives are expected to abide by the Code of Conduct, Contributing, Governance, and License policies as set forth in the {{PROJECT-SHORTNAME}} Membership Agreement, located at {{MEMBERSHIP-AGREEMENT}}.
 
 Trade Associations, Industry Forums, Standards Developing or Open Source organizations, and other Membership-based organizations are not eligible for Membership and should participate under the terms of a mutually-agreed MOU. Individuals are not eligible for Membership, but may make contributions to public repositories under the terms of that repository's open source license(s) and may be permitted to provide other contributions under the terms of the Non-Member Participation Agreement in the Membership Agreement (Appendix C). 
 
-The table below summarizes the rights granted to each level for participation in the technical project, per the terms of the Project and Working Group charters. In addition to these rights, the Steering Committee may outline additional membership benefits, fees, or requirements for each level which can be found at {{MEMBERSHIP-URL}} if applicable. 
+The table below summarizes the rights granted to each level for participation in the technical project, per the terms of the Project and Working Group charters. In addition to these rights, the Steering Committee may outline additional membership benefits, fees, or requirements for each level which can be found at {{PROJECT-URL}} if applicable. 
 
 ```
 Note: Provide a description of the expectations for each participation level *as it pertains to the technical deliverables* - refer to the Membership Agreement to confirm the correct selections for your Project.
@@ -286,7 +286,7 @@ The Steering Committee Chairperson is expected to:
 Note: The policies in this section should apply to all meetings in the organization. While the language provided describes general best practices, you can modify this section liberally to fit how your community prefers to meet.
 ```
 
-{{PROJECT-NAME}} Working Groups and Committees have regular and ad hoc teleconference meetings. All teleconference meetings are subject to the organization's IPR and Antitrust policies and:
+{{PROJECT-SHORTNAME}} Working Groups and Committees have regular and ad hoc teleconference meetings. All teleconference meetings are subject to the organization's IPR and Antitrust policies and:
 
 * Must be announced on the group Mailing List at least 7 days in advance and include any planned votes or notices
 * Must be published to the Project Meeting Calendar
@@ -310,7 +310,7 @@ Note: The policies in this section should apply to all meetings in the organizat
 * To view past or upcoming meetings, access meeting recordings or calendar invites, go to [https://openprofile.dev]
 
 ### Decision-Making Practices and Consensus Guidelines
-{{PROJECT-NAME}} develops its specifications through voluntary consensus, meaning that:
+{{PROJECT-SHORTNAME}} develops its specifications through voluntary consensus, meaning that:
 
 * Participation is open to all interested stakeholders.
 * Decisions are made by consensus. Consensus means substantial agreement, absent of sustained objection, not necessarily unanimity.
@@ -696,7 +696,7 @@ Published Source Code materials must include:
 The Project welcomes opportunities to collaborate with other Member-based organizations under the terms of a mutually agreed Memorandum of Understanding (MOU). This section defines the requirements for defining and approving an MOU. 
 
 All MOUs must:
-* Originate on the {{PROJECT-NAME}}'s MOU template paper
+* Originate on the {{PROJECT-SHORTNAME}}'s MOU template paper
 * Include designated points of contact
 * Include the scope and goals of the collaboration
 * Indicate which specific Working Groups, Events, Meetings, or Deliverables will be involved
@@ -723,13 +723,13 @@ A Final Deliverable may be adopted for publication by a national or internationa
 The Working Group Chairperson(s) is responsible for publishing notices.
 
 #### IPR Policies
-All Working Groups must adhere to the copyright and patent policies indicated in the Working Group Charter. Questions about these specific policies or questions about incorporating linked libraries, 3rd Party Software, License compatibility, or binary distributions should be addressed by the Working Group Member Participants and Member Legal Counsel. If the Working Group is unable to arrive at an answer, the Steering Committee may address the question or seek a legal opinion on behalf of {{PROJECT-NAME}}.
+All Working Groups must adhere to the copyright and patent policies indicated in the Working Group Charter. Questions about these specific policies or questions about incorporating linked libraries, 3rd Party Software, License compatibility, or binary distributions should be addressed by the Working Group Member Participants and Member Legal Counsel. If the Working Group is unable to arrive at an answer, the Steering Committee may address the question or seek a legal opinion on behalf of {{PROJECT-SHORTNAME}}.
 
 Working Groups may request a change to their patent or copyright policy. All changes must be reviewed and approved by the Steering Committee, and Notice must be provided to Joint Development Foundation Projects and all Members. Depending on the nature of the changes and the status of the Working Group's deliverables, licensing changes may result in the creation of a new Working Group. 
 
-The Trademark Policy is located at ___. The brand and logo usage guidelines are located at ____.
+The Trademark Policy is located at {{TRADEMARK-POLICY-URL}}. The brand and logo usage guidelines are located at {{BRAND-FILES}}.
 
-IPR and other Legal questions should be sent to ____. 
+IPR and other Legal questions should be sent to {{ADMIN-CONTACT}}. 
 
 ## Additional Resources and Reference Materials
 
