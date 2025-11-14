@@ -4,8 +4,8 @@
 Note: This document is a template that needs to be customized for your Organization.
 Section notes should be deleted once customization is complete. Content in braces or italics denotes other areas for updating.
 ```
-
-**Adopted on: __________**
+**{{DOCUMENT-STATUS}} version {{VERSION}}**
+**Published on: {{PUBLICATION-DATE}}**
 
 **Table of Contents**
 1. [Introduction](#introduction)
@@ -65,6 +65,7 @@ Note: Refer to the Project Charter of the Membership Agreement packet to indicat
 Note: Meetings should be held on a defined cadence, and ad-hoc meetings may be called with 7 or more days advance notice. Meeting notices must include an agenda with the topics to be discussed as well as any votes or resolutions to be taken during the meeting. Projects may adopt the degree of formality for meeting management that best suits their needs. Meeting minutes must be recorded and include the attendance and records of any votes or discussion outcomes.
 ```
 **Steering Committee Mailing List Information**: _list information about SC mailing lists and who may post to them_
+
 **Steering Committee Workspaces**: _list any tools or areas that SC representatives must be able to access_
 
 #### Working Group(s)
@@ -97,9 +98,9 @@ Note: This section should be updated each time a new Working or Sub-Working Grou
 Note: Projects may have one or more Committees to work in areas that support the technical development. Common examples include Marketing, Budget, and Events Committees. Committees do not produce technical deliverables and participation is often used as a benefit of Membership. This section should be updated each time a new Committee is added or removed.
 ```
 
-{{PROJECT-NAME}} may establish one or more non-technical Committees to advance its work.
+{{PROJECT-SHORTNAME}} may establish one or more non-technical Committees to advance its work.
 
-* {{PROJECT-NAME}} has the following Project Committees:
+* {{PROJECT-SHORTNAME}} has the following Project Committees:
   * Committee 1
     * **Purpose of Committee/Key Responsibilities:**
     * **Link to Charter:**
@@ -119,7 +120,7 @@ Note: Projects may have one or more Committees to work in areas that support the
 
 #### {{PROJECT-SHORTNAME}} Membership
 
-{{PROJECT-SHORTNAME}} Members are eligible Organizations that have signed the Membership Agreement at the Steering, General, or Contributor level. Members may appoint individual representatives from their Organization or Affiliate to participate in Working Groups and Committees. All Members and their selected representatives are expected to abide by the Code of Conduct, Contributing, Governance, and License policies as set forth in the {{PROJECT-SHORTNAME}} Membership Agreement, located at {{MEMBERSHIP-AGREEMENT}}.
+{{PROJECT-SHORTNAME}} Members are eligible Organizations that have signed the Membership Agreement at the Steering, General, or Contributor level. Members may appoint individual representatives from their Organization or Affiliate to participate in Working Groups and Committees. All Members and their selected representatives are expected to abide by the Code of Conduct, Contributing, Governance, and License policies as set forth in the [{{PROJECT-SHORTNAME}} Membership Agreement]({{MEMBERSHIP-AGREEMENT}}).
 
 Trade Associations, Industry Forums, Standards Developing or Open Source organizations, and other Membership-based organizations are not eligible for Membership and should participate under the terms of a mutually-agreed MOU. Individuals are not eligible for Membership, but may make contributions to public repositories under the terms of that repository's open source license(s) and may be permitted to provide other contributions under the terms of the Non-Member Participation Agreement in the Membership Agreement (Appendix C). 
 
@@ -258,17 +259,17 @@ Note: Provide a description of the expectations for each participation level *as
 
 **Roles & Expectations**
 
-All [Working Group]() and [Committee]() Participants are expected to: 
+All Working Group and Committee Participants are expected to: 
 * Read and adhere to the Membership Agreement terms, Operational Process Document, and all applicable policies 
 * Familiarize themselves with their own organization's internal policies for engagement with standards bodies
-* Take the [Antitrust training]()
+* Take the [Antitrust training][antitrust-training]
 * Use the workspaces provided by the Project for the purposes of making contributions
 * Participate in good faith in the consensus-seeking process
 * Inform the Project of any issue that may arise.
 
 Working Group and Committee Chairpersons are expected to: 
 * Follow the guidelines listed above for Working Group and Committee Participants
-* Take the [Leading Effective Working Group Meetings Training]()
+* Take the [Leading Effective Working Group Meetings Training][leadership-training]
 * Ensure fair, timely review and approval for group decision-making in the standards development process
 * Publish Notices in a transparent and timely manner
 
@@ -300,14 +301,14 @@ Note: The policies in this section should apply to all meetings in the organizat
 
 #### Meeting Agendas, Minutes, and other Collateral
 
-* Agenda and Meeting Minutes templates can be found in the [Template directory]().
+* Agenda and Meeting Minutes templates can be found in the [Template directory][meeting-templates].
 * Meeting materials for each Working Group and Committee are located in that group's repository. 
   * Meeting materials include the Agenda, Minutes, and any presentations or documents discussed.
   * Meeting materials generated with assistance from AI tools must be marked as such.
   * Meeting minutes should be reviewed and approved  
 * The Project's Meeting Calendar is maintained by LFX Meetings
-* To subscribe to the Meeting Calendar, [click here]()
-* To view past or upcoming meetings, access meeting recordings or calendar invites, go to [https://openprofile.dev]
+* To subscribe to the Meeting Calendar, [click here][project-calendar]
+* To view past or upcoming meetings, access meeting recordings or calendar invites, go to [https://openprofile.dev]()
 
 ### Decision-Making Practices and Consensus Guidelines
 {{PROJECT-SHORTNAME}} develops its specifications through voluntary consensus, meaning that:
@@ -318,7 +319,7 @@ Note: The policies in this section should apply to all meetings in the organizat
 * There is a balance of interests, so no single group organization or stakeholder group dominates decision-making.
 * There is due process, including mechanisms for notices and procedural appeals. Due process means that any party with a direct and material interest has a right to participate by: a) expressing a position and its basis, b) having that position considered, and c) having the right to appeal. Due process allows for equity and fair play. 
 
-[Section x.x of the Membership Agreement]() outlines the terms of decision-making. The remainder of this section is intended to provide guidance on the operational application of these terms. 
+[Section x.x of the Membership Agreement]({{MEMBERSHIP-AGREEMENT}}) outlines the terms of decision-making. The remainder of this section is intended to provide guidance on the operational application of these terms. 
 
 ```
 Note: The following sections can be tailored for your Project. For example, if your Project will do much of its development on GitHub, you may provide additional guidance for how Working Groups can use informal voting or input gathering with upvotes or emojis, or you might add additional responsibilities and expectations for Chairpersons.
@@ -505,7 +506,7 @@ If the Work Package and Release Roadmap describe what the Working Group will cre
 	<figcaption>Specification Development Lifecycle</figcaption>
 </figure>
 
-#### Draft Deliverable Development - Guidelines for [Appendix A Section 4.1]()
+#### Draft Deliverable Development - Guidelines for [Appendix A Section 4.1]({{MEMBERSHIP-AGREEMENT}})
 
 **Work Package Definition**
 In this phase, the group defines the work to be done in a given Draft deliverable - described above as a Work Package. Any Member may submit a new Work Package proposal. The proposal is discussed and refined collaboratively, after which the Working Group decides to either approve or reject it. If approved, the Work Package moves to the Development phase.
@@ -523,13 +524,13 @@ When the Specification Development stage is complete, or very near completion, t
 
 The Consistency Review period is also an appropriate time to address specification formatting comments or issues, as style or editorial guidelines have a tendency to drift during the Development phase.
 
-#### Working Group Approval - Guidelines for [Appendix A Section 4.2]()
+#### Working Group Approval - Guidelines for [Appendix A Section 4.2]({{MEMBERSHIP-AGREEMENT}})
 After the Consistency Review period concludes, the Working Group must address any comments raised during this period. When all comments have been addressed, the document(s) will be eligible to become a Working Group Approved Draft Deliverable per Section 4.1 of the Membership Agreement. 
 
-#### Final Approval - Guidelines for [Appendix A Section 4.3]()
+#### Final Approval - Guidelines for [Appendix A Section 4.3]({{MEMBERSHIP-AGREEMENT}})
 No sooner than 30 days after the the Working Group approves the document(s) as a Working Group Approved Draft Deliverable, the document(s) may be sent to the Steering Committee for Final Approval.
 
-#### Publication - Guidelines for [Appendix A Section 4.4]()
+#### Publication - Guidelines for [Appendix A Section 4.4]({{MEMBERSHIP-AGREEMENT}})
 Once the Steering Committee has approved a Final Deliverable, the document(s) will be published in the following manner: 
 
 * To publish the document(s), the Maintainer will create a new Release Tag.
@@ -544,8 +545,8 @@ Note: This section assumes that your project will leverage a git-based developme
 ```
 
 <figure>
-	<img src="images/dev-process.svg" alt="[Organization_Abbreviation] Technical Specifications Development Phases">
-	<figcaption>[Organization_Abbreviation] Technical Specifications Development Phases</figcaption>
+	<img src="images/dev-process.svg" alt="{{PROJECT-SHORTNAME}} Technical Specifications Development Phases">
+	<figcaption>{{PROJECT-SHORTNAME}} Technical Specifications Development Phases</figcaption>
 </figure>
 
 The project has selected {{PLATFORM}} to maintain its source of truth for the specification development process. The diagram below illustrates how contributions and discussions proceed through the specification development lifecycle via {{PLATFORM}}. It may be amended from time to time as new efficiencies or features are developed.
@@ -599,7 +600,7 @@ Note: If you have added any additional Working Group or Committee Roles in the R
 #### {{PLATFORM}} Workflow Process
 
 **Semantic Versioning Guidelines**
-The project will follow [Semantic Versioning](https://semver.org/) Guidelines to effectively track work and stage it for approval or advancement.
+The project will follow [https://semver.org/]() guidelines to effectively track work and stage it for approval or advancement.
 
 <figure>
 	<img src="images/semantic-versioning.svg" alt="Semantic Versioning">
@@ -735,9 +736,9 @@ IPR and other Legal questions should be sent to {{ADMIN-CONTACT}}.
 
 ### Project Templates
 
-* [Presentation Template]()
-* [Specification Template]()
-* [Agenda and Meeting Minutes Template]()
+* [Presentation Template][meeting-templates]
+* [Specification Template][meeting-templates]
+* [Agenda and Meeting Minutes Template][meeting-templates]
 
 ### Project Onboarding and Training
 
@@ -747,7 +748,7 @@ All Member Participants must familiarize themselves with the following materials
 The legal disclaimer to insert in each publicly published document is:
 
 ```
-© `{{PROJECT-NAME}}` {{YEAR}}, All rights reserved.
+© `{{PROJECT-FULLNAME}}` {{YEAR}}, All rights reserved.
 
 “THESE MATERIALS ARE PROVIDED “AS IS.”  The parties expressly disclaim any warranties 
 (express, implied, or otherwise), including implied warranties of merchantability, non-infringement, 
@@ -764,4 +765,9 @@ THE OTHER MEMBER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.”
 **Project Copyright Notice**
 The copyright notice to include on project deliverables is:
 
-`Copyright Contributors to {{PROJECT-NAME}}.`
+`Copyright Contributors to {{PROJECT-FULLNAME}}.`
+
+[project-calendar]: https://calendar.projectname.org
+[antitrust-training]: https://training.linuxfoundation.org/training/antitrust-laws-and-open-source-software-project-management-and-participation-lfc105/
+[leadership-training]: https://training.linuxfoundation.org/training/leading-high-performance-working-group-meetings-lfc120/
+[meeting-templates]: https://

@@ -1,21 +1,17 @@
----
-title: "Operational Template for Open Standards"
-document-status: "Draft or Approved"
-version: "0.0"
-publication-date: "2022-10-26"
-project-fullname: "JDF Project"
-project-shortname: "JDFP"
-legal-parent: "Joint Development Foundation"
-membership-agreement: "insert url"
-project-url: "insert url"
-trademark-policy-url: ""
-code-of-conduct-url: ""
-admin-contact: ""
-brand-files: "url pointer to logofiles"
-logo: "images/jdf-horizontal-color.svg"
-documentName: "Operational_Template_Open_Standards"
-files:
-  - Overview.md
-  - Organization_Operational_Process.md
-  - Appendix_A.md
----
+# update the values below with the correct information for your Project
+
+TITLE: "Operational Template for Open Standards"
+DOCUMENT-STATUS: "Draft"
+VERSION: "0.0"
+PUBLICATION-DATE: "2022-10-26" # date the document was adopted
+PROJECT-FULLNAME: "Example Project Consortium" # the Project's full legal name
+PROJECT-SHORTNAME: "EPC" # the Project's common name
+LEGAL-PARENT: "Joint Development Foundation" # if no legal parent, enter project-fullname
+MEMBERSHIP-AGREEMENT: "" # tip: host a preview .pdf of your agreement on your website or GitHub
+PROJECT-URL: "https://example.org" # Project's official website
+PLATFORM: "GitHub" # the tool, location or platform used to develop the specification
+TRADEMARK-POLICY-URL: "https://example.org/trademark" 
+CODE-OF-CONDUCT-URL: "https://example.org/code-of-conduct"
+ADMIN-CONTACT: "admin@example.org"
+BRAND-FILES: "https://example.org/brand"
+LOGO: "images/jdf-horizontal-color.svg"
