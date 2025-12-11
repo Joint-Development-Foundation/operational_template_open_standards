@@ -1,66 +1,125 @@
-## Checklist for Working Group Chairs
+# ✅ Working Group Chairperson Checklist
 
-### General Roles of Officers
+This checklist provides practical guidance for Working Group (WG) Chairs and Co-Chairs.  
+It summarizes recurring duties, requirements, and day-to-day leadership tasks to help ensure consistent, transparent, and effective operation of your Working Group.
 
-- [ ] The chair has overall responsibility for the management of the group
-- [ ] Co-chairs can provide full cover for the Chair - the intent being continuity of leadership to the group
-- [ ] Chairs and co-chairs are to behave as a single team generating the group's vision
-- [ ] Co-chairs provide the chair with a 2nd pair of eyes and ears to gauge the meeting
-- [ ] Officers have to have visibility of all officers' communications to ensure transparency in the leadership 
-(e.g. a leadership mailing list)
-- [ ] Chair needs to drive the co-chairs' support
+> **Reference Documents**
+> - [OMP Rules of Engagement](#)  
+> - [Work Package Template](#)  
+> - [Meeting Agenda Template](#)  
+> - [Meeting Minutes Template](#)  
+> - [Anti-Trust & IPR Reminder Slide](#)  
+> - [Charter Template](#)
 
-### General Responsibilities
+---
 
-- [ ] Read, understand and follow the OMP processes as defined in the OMP Rules of Engagement, and ensure that all rules are 
-followed. Where there is doubt, seek advice from the parent group chair or ORG Team Officers as appropriate.
-- [ ] Read, understand and follow any other related OMP procedures and guidelines.
-- [ ] Familiarize themselves with IPR and Anti-Trust laws.
-- [ ] Ensure execution and fulfillment of the mandate bestowed on the group through its charter and assigned work packages.
-- [ ] Work closely with the officers of the parent group to ensure the integrated approach required for OMP is achieved. 
-- [ ] Inform the parent group if the work of the group has been completed and recommend closure of the group.
-- [ ] Interact with other groups as may be necessary to fulfil the group's own or another group's, charter and work packages.
-- [ ] Interact with external fora (consistent with the liaison process) as necessary and report all interaction with external fora to the parent group. 
-- [ ] At all times act fully impartially in conducting the group's mandate be prepared to confidentially work with a group member if they wish to express any concerns in private.
-- [ ] Support, promote and keep updated the work packages as appropriate.
-- [ ] Support the parent group with the responsibilities delegated. 
-- [ ] Conduct all group business in a fair, reasonable and open manner in accordance with the approved OMP processes and procedures. 
-- [ ] Chairs: Arrange for an agreed number of co-chairs to support the chair in the group leadership; arrange the task assignment for the chairs and co-chairs, delegate assigned tasks to, and supervise, the co-chairs. 
-- [ ] Co-chairs: Support the chair/convenor/interim chair in task assignment and execute delegated tasks and stand in for the chair as appropriate to fulfill the roles of the group. 
-- [ ] Internally structure the group as appropriate (e.g. create/modify/close sub-working groups, etc) to best fulfil the mandate. 
-- [ ] Conduct elections of and manage all sub-group officers consistent with officer election rules, and act as election officer in the strictest confidentiality. 
-- [ ] Regularly report group status and issues to the parent group, Steering Committee and members as required using the approved templates.
-- [ ] Ensure the contact information shown on the MS Teams is corrected and updated as necessary. The OMP Organization Chart and MS Teams al should be updated to reflect the appointment.  
-- [ ] Organize group meetings and phone conferences in a timely manner.
-- [ ] Monitor your GitHub issues for requests to respond to questions from the public and provide responses.
-- [ ] The chair will manage the creation, regular maintenance and obsolescence of their group's charter.
+## 🧭 1. Roles and Leadership
 
-### Meeting Responsibilities
+- [ ] Understand that the Chair has overall responsibility for effective WG management.
+- [ ] Ensure continuity: Co-Chairs can fully substitute for the Chair when needed.
+- [ ] Operate as a cohesive leadership team — unified vision, shared communication.
+- [ ] Maintain transparency across all officer communications (e.g., leadership mailing list or Teams channel).
+- [ ] Drive regular communication, delegation, and accountability among officers.
+- [ ] Model fairness, openness, and impartiality in all WG matters.
 
-- [ ] Moderate the meeting to ensure the work within the group progresses in a timely manner. 
-   * When issues are raised within the meeting that the chair considers editorial and that may result in lengthy discussions, the chair should direct the editor to handle these issues outside the face to face session or conference call session subject to agreement on the resulting changes. 
-   * For class Editorial PRs should be pre-reviewed, then in the meeting the chair should  seek agreement and  direct the editor to incorporate them in the document  without further discussion during the meeting (unless non-editorial issues are raised). 
-- [ ] Organize and run the meetings in accordance with the processes and procedures of OMP as defined in the OMP "Rules of Engagement" and other guidelines, and ensure that all rules are followed. 
-   * Where there is doubt, seek advice from the parent group chair or ORG Officers as appropriate.
-- [ ] Issue a call for meeting agenda items in a timely manner as defined in the "Rules of Engagement".
-- [ ] Ensure that an agenda is prepared for every meeting (face to face or by conference call).
-- [ ] When scheduling non-face-to-face real-time meeting such as phone conference, have in consideration the time zone of the participants.
-- [ ] Issue meeting agendas to fulfil the groups charter and work packages.
-- [ ] Monitor the discussion and activity of the group and facilitate to ensure that decisions are reached through consensus in a timely manner.
-- [ ] Monitor the discussion and activity of the group to ensure that no anti-trust violations occur.
-- [ ] Remind members regarding IPR and anti-trust at the beginning of each meeting.
-- [ ] Ensure that meeting minutes are written, reviewed and published after each meeting.
-- [ ] Prepare group status for the parent or Steering Committee meetings as required and ensure there is a representative from the working group who will handle these duties if the chair cannot be present, e.g. co-chair.
-- [ ] Ensure that group GitHub repos is kept up to date in a timely fashion
-- [ ] Manage the Specification Development Process.
+---
 
-### Administrative Aspects
+## 📘 2. General Responsibilities
 
-- [ ] Ensure the technical activities of the group are progressed in a timely manner in accordance with the processes and procedures defined in the "Rules of Engagement".
-- [ ] Organize and run the meetings in accordance with the processes and procedures of OMP as defined in the OMP "Rules of Engagement" and other documents, and ensure that all rules are followed. Where there is doubt, seek advice from the parent group chair or ORG Officers as appropriate.
+- [ ] Read and follow the **OMP Rules of Engagement** and related policies.
+- [ ] Ensure all group activities comply with OMP rules; seek clarification from the parent group or ORG Officers when in doubt.
+- [ ] Familiarize yourself with **IPR** and **Anti-Trust** laws and ensure adherence in all WG activities.
+- [ ] Execute the WG charter and assigned **work packages**.
+- [ ] Support the parent group with delegated responsibilities and integrate work as required.
+- [ ] Inform the parent group when the WG’s work is complete and recommend closure.
+- [ ] Coordinate with other groups or external fora (per liaison policies) and report such interactions to the parent group.
+- [ ] Uphold impartiality and confidentiality when handling member concerns.
+- [ ] Keep work package documents current and aligned with progress.
+- [ ] Maintain and update the WG charter, including creation and obsolescence phases.
+- [ ] Regularly report WG status, milestones, and issues to the parent group or Steering Committee using approved templates.
 
-### Technical Aspects
+---
 
-- [ ] Complete all reviews (Requirements, Architecture and Consistency) and address all issues raised in a timely manner.
-- [ ] Conduct a full specification dependency analysis, and document the results in the specification and ensure the reference policy and guidelines are adhered to.
-- [ ] Address all maintenance issues (PRs) in a timely manner.
+## 🗓️ 3. Meeting Responsibilities
+
+Organize and run meetings effectively and in full compliance with OMP processes.
+
+### **Before the Meeting**
+- [ ] Issue a call for agenda items within the defined notice period.
+- [ ] Prepare and circulate an agenda in advance (use [Agenda Template](#)).
+- [ ] Confirm correct participant list, time zones, and meeting access links.
+- [ ] Include **IPR and Anti-Trust** reminders at the start of every meeting deck.
+- [ ] Designate a note-taker or co-chair to record minutes.
+- [ ] Review GitHub issues and PRs to identify key discussion items.
+
+### **During the Meeting**
+- [ ] Open the meeting with IPR and Anti-Trust reminders.
+- [ ] Moderate discussions to ensure timely progress and balanced participation.
+- [ ] Direct lengthy editorial discussions to offline resolution when appropriate.
+- [ ] For editorial PRs, seek quick agreement and delegate incorporation to the editor.
+- [ ] Ensure all decisions are reached by consensus.
+- [ ] Prevent anti-trust violations and intervene immediately if issues arise.
+- [ ] Record clear decisions, actions, and responsible parties.
+
+### **After the Meeting**
+- [ ] Publish and circulate minutes within 5 business days (use [Minutes Template](#)).
+- [ ] Post meeting materials and recordings (if applicable) in the WG repository or Teams channel.
+- [ ] Update GitHub repos and project documentation promptly.
+- [ ] Report outcomes and next steps to the parent group or Steering Committee.
+- [ ] Track and follow up on assigned action items.
+
+---
+
+## 🧩 4. Operational Management
+
+- [ ] Structure the WG as needed (create, modify, or close sub-groups).
+- [ ] Conduct officer elections in accordance with election procedures and maintain confidentiality.
+- [ ] Ensure the organizational chart and MS Teams membership list remain current.
+- [ ] Maintain visibility of leadership roles across OMP directories and repositories.
+- [ ] Monitor public GitHub issues for questions or feedback and respond in a timely manner.
+- [ ] Keep all WG records and deliverables organized, versioned, and discoverable.
+- [ ] Ensure recurring reports to parent bodies are scheduled and delivered.
+
+---
+
+## ⚙️ 5. Technical Responsibilities
+
+- [ ] Complete **Requirements**, **Architecture**, and **Consistency** reviews.
+- [ ] Address all issues raised in reviews within the agreed timeline.
+- [ ] Conduct and document a **Specification Dependency Analysis**.
+- [ ] Ensure references follow the approved OMP reference policy.
+- [ ] Manage the full **Specification Development Process**, including maintenance PRs.
+- [ ] Ensure PRs are handled in a timely manner and merged per consensus.
+- [ ] Track specification status and update the parent group on major milestones.
+
+---
+
+## 🔁 6. Recurring Tasks
+
+| Frequency | Task |
+|------------|------|
+| **Monthly** | Review open GitHub issues and PRs; confirm work package status. |
+| **Quarterly** | Report WG progress to the parent group; review charter relevance. |
+| **Annually** | Reconfirm WG officers; evaluate need for re-chartering or closure. |
+
+---
+
+## 🆕 7. New Chair Onboarding Checklist
+
+- [ ] Review and understand the WG Charter and work packages.
+- [ ] Meet with the parent group Chair to confirm expectations and reporting cadence.
+- [ ] Confirm Co-Chairs and create a leadership communication channel.
+- [ ] Review recent minutes and open issues for context.
+- [ ] Schedule an initial WG sync meeting.
+- [ ] Familiarize yourself with OMP tools: Teams, GitHub, shared drives, etc.
+- [ ] Bookmark templates and reference documents listed above.
+
+---
+
+## ⚠️ 8. Common Pitfalls to Avoid
+
+- ❌ Forgetting to issue agendas or minutes within required timeframes.  
+- ❌ Allowing lengthy editorial debates to block progress.  
+- ❌ Missing anti-trust reminders at the start of meetings.  
+- ❌ Failing to communicate status to the parent group regularly.  
+- ❌ Neglecting to update membership and leadership records.

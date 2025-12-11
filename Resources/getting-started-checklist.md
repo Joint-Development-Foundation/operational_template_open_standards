@@ -6,37 +6,22 @@ Preparing and approving operational procedures is an important step in fostering
 
 ---
 
-### 📌 How to Use This Checklist
-
-- **Replace all placeholder text** such as `{{PROJECT_NAME}}`, `{{YEAR}}`, and `{{CONTACT_EMAIL}}` with your project’s information.  
-- **Follow the links** to referenced documents for further details.
-- **Check off each item** as you complete it to ensure no steps are missed.
-
----
-
 ### 1. Initial Repository Setup & Hygiene
 
 > 💡 **Tip:** Add a link to this repo in your GitHub Organization's main README for easy access.
 
 - [ ] Fork or copy this repository into your project’s GitHub organization  
-  _Example: If your project is called “OpenData,” fork and rename to `OpenData_Operational_Procedures`._
 - [ ] Rename the repository to `{{PROJECT_NAME}}_Operational_Procedures` or similar
 - [ ] Set the default branch (e.g., `main`) and enable [branch protection rules](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/about-protected-branches) and [2FA](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/about-two-factor-authentication)
 - [ ] Set up [DCO Bot](https://github.com/apps/dco) or CLA Bot if required
-- [ ] Replace all instances of `{{PROJECT_NAME}}` with your actual project name (use a global find-and-replace or script)
-- [ ] Update links to project documents in `index.yaml` if different from defaults:
-    - [ ] Project website
-    - [ ] Logo artwork, trademark & brand usage guidelines
-    - [ ] Code of Conduct
-    - [ ] Membership agreement / joining instructions
-    - [ ] Membership levels / benefits
-    - [ ] Project and working group charters
+- [ ] Update the Project's information and links to project documents in [`index.yaml`]()
+- [ ] After updating the `index.yaml` file, run the `initialization-script.py` to automatically replace template placeholders such as `{{PROJECT_NAME}}` Alternatively, use your computer's find-and-replace. 
 
 ---
 
 ### 2. Core Template Customization
 
-Document your project’s organizational structure by providing details for each committee, working group, task group, or interest group:
+Document your project’s organizational structure by providing details for each committee, working group, task group, and/or interest group:
   - [ ] Add a short description of the group’s function/objective  
     _Example: “The Architecture WG maintains the technical architecture for the project.”_
   - [ ] Add joining instructions  
@@ -46,7 +31,7 @@ Document your project’s organizational structure by providing details for each
   - [ ] Link to group-specific repos, file directories, chat channels, or project boards
 
 Review and update core sections:
-- [ ] Update or add any roles or responsibilities important for your Project's context.
+- [ ] Update or add any roles or responsibilities important for your Project's context. For example, your project may designate a participant to be the Release Manager or Documentation Engineer for some period of time.
 - [ ] Review the Meeting Policy and update templates if needed
 - [ ] Clarify the “Guidelines for Decision-Making” section:
     - [ ] Document how contributions are accepted (e.g., via PRs)
