@@ -631,7 +631,7 @@ The project will follow [https://semver.org/]() guidelines to effectively track 
     <td>Z</td>
     <td><i>Service Indicator</i></td>
     <td>Incremented every time a corrective update is made to the <strong>Approved</strong> (not draft) document version by the WG.
-    This field is OPTIONAL, and SHALL be provided whenever a service release of the document is made. The first service indicator release SHALL be “.1” for any Major_Minor release. Service indicators are intended to be compatible with the Major_Minor release they relate to but add bug fixes. No new functions will be added through the release of Service Indicators.
+    This field is OPTIONAL, and SHALL be provided whenever a service release of the document is made. The first service indicator release SHALL be “.1” for any Major_Minor release. Service indicators are intended to be compatible with the Major_Minor release they relate to, but add bug fixes. No new functions will be added through the release of Service Indicators.
     </td>
   </tr>
   </tbody>
