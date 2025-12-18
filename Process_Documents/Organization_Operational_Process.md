@@ -417,7 +417,7 @@ Examples of well-phrased questions:
 For decisions involving three or more options, the group should reduce the choices to two using informal voting techniques before proceeding to formal voting. Binary choices should be phrased clearly, e.g. “Shall the group approve Proposal A or Proposal B?.”
 
 **Voting Methods**
-Each eligible Member company is entitled to one vote, which should be issued by that Member's designated voting representative or their delegate.Members may change their vote during the voting period, however the last recorded vote is the one that counts.
+Each eligible Member company is entitled to one vote, which should be issued by that Member's designated voting representative or their delegate. Members may change their vote during the voting period, however the last recorded vote is the one that counts.
 
 Voting methods may include:
 * Electronic voting via tools such as LFX, Doodle, OpaVote, or Email
