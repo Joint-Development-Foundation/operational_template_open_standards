@@ -397,7 +397,7 @@ Notice must be given for formal decisions, which may include:
 
 #### Handling objections when seeking consensus
 
-Sparsely attended meetings or forums should be used to drive through proposals that would not have broad support. Care should also be taken when decisions need to be made during peak holiday periods. Dissent or objections should be recorded in the appropriate forum (e.g. the Project's minutes or via an alternative proposal in GitHub). In many cases, clearly documenting the concerns, basis for the objection, or alternatives proposed may be sufficient for the dissenting Participant(s) to not sustain their objection and move forward with the consensus decision (alternatively, "Disagree and commit"). Participants are discouraged from sustaining their objections when it is clear that they would be overruled by a vote were one to take place.
+Sparsely attended meetings or forums should not be used to drive through proposals that would not have broad support. Care should also be taken when decisions need to be made during peak holiday periods. Dissent or objections should be recorded in the appropriate forum (e.g. the Project's minutes or via an alternative proposal in GitHub). In many cases, clearly documenting the concerns, basis for the objection, or alternatives proposed may be sufficient for the dissenting Participant(s) to not sustain their objection and move forward with the consensus decision (alternatively, "Disagree and commit"). Participants are discouraged from sustaining their objections when it is clear that they would be overruled by a vote were one to take place.
 
 If the objection is sustained, further action is required to move forward - the Proposal may be withdrawn, amended, countered, or put to a formal vote. The Working Group or Committee Chairperson may propose a deadline for any actions in order to ensure the timely functioning of the group. Meeting summaries must include the outcome of the discussion and which Participant(s) are responsible for next actions. If there is insufficient time for review in a real-time meeting, non-real-time decision-making approaches should be used and documented for the group.  
 
@@ -417,7 +417,7 @@ Examples of well-phrased questions:
 For decisions involving three or more options, the group should reduce the choices to two using informal voting techniques before proceeding to formal voting. Binary choices should be phrased clearly, e.g. “Shall the group approve Proposal A or Proposal B?.”
 
 **Voting Methods**
-Each eligible Member company is entitled to one vote, which should be issued by that Member's designated voting representative or their delegate.Members may change their vote during the voting period, however the last recorded vote is the one that counts.
+Each eligible Member company is entitled to one vote, which should be issued by that Member's designated voting representative or their delegate. Members may change their vote during the voting period, however the last recorded vote is the one that counts.
 
 Voting methods may include:
 * Electronic voting via tools such as LFX, Doodle, OpaVote, or Email
@@ -631,7 +631,7 @@ The project will follow [https://semver.org/]() guidelines to effectively track 
     <td>Z</td>
     <td><i>Service Indicator</i></td>
     <td>Incremented every time a corrective update is made to the <strong>Approved</strong> (not draft) document version by the WG.
-    This field is OPTIONAL, and SHALL be provided whenever a service release of the document is made. The first service indicator release SHALL be “.1” for any Major_Minor release. Service indicators are intended to be compatible with the Major_Minor release they relate to but add bug fixes. No new functions will be added through the release of Service Indicators.
+    This field is OPTIONAL, and SHALL be provided whenever a service release of the document is made. The first service indicator release SHALL be “.1” for any Major_Minor release. Service indicators are intended to be compatible with the Major_Minor release they relate to, but add bug fixes. No new functions will be added through the release of Service Indicators.
     </td>
   </tr>
   </tbody>
