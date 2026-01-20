@@ -1,6 +1,6 @@
 ## ✅ Getting Started Checklist
 
-Preparing and approving operational procedures is an important step in fostering a culture of openness, trust, and collaboration within a community. This checklist helps you customize the default procedures in [Organization Operational Process](./Organization_Operational_Process.md) to reflect the needs and aims of your project.
+Preparing and approving operational procedures is an important step in fostering a culture of openness, trust, and collaboration within a community. This checklist helps you customize the default procedures in [Organization Operational Process](../Process_Documents/Organization_Operational_Process.md) to reflect the needs and aims of your project.
 
 > 💡 **Tip:** You can [turn this file into a GitHub issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-issues/about-issues) to track your progress and assign tasks.
 
@@ -12,9 +12,9 @@ Preparing and approving operational procedures is an important step in fostering
 
 - [ ] Fork or copy this repository into your project’s GitHub organization  
 - [ ] Rename the repository to `{{PROJECT_NAME}}_Operational_Procedures` or similar
-- [ ] Set the default branch (e.g., `main`) and enable [branch protection rules](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/about-protected-branches) and [2FA](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/about-two-factor-authentication)
+- [ ] Set the default branch (e.g., `main`) and enable [branch protection rules](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches#about-branch-protection-rules)) and [2FA](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/about-two-factor-authentication)
 - [ ] Set up [DCO Bot](https://github.com/apps/dco) or CLA Bot if required
-- [ ] Update the Project's information and links to project documents in [`index.yaml`]()
+- [ ] Update the Project's information and links to project documents in [`index.yaml`](../Process_Documents/index.yaml)
 - [ ] After updating the `index.yaml` file, run the `initialization-script.py` to automatically replace template placeholders such as `{{PROJECT_NAME}}` Alternatively, use your computer's find-and-replace. 
 
 ---
@@ -99,3 +99,4 @@ Set up GitHub (or GitLab, or version control tool of choice) community features:
 ## 📢 Feedback & Iteration
 
 Continuous improvement helps everyone! Please [open an issue or PR](https://github.com/Joint-Development-Foundation/operational_template_open_standards/issues) to share feedback or improvements for this checklist.
+
