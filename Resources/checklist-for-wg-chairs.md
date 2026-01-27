@@ -3,14 +3,6 @@
 This checklist provides practical guidance for Working Group (WG) Chairs and Co-Chairs.  
 It summarizes recurring duties, requirements, and day-to-day leadership tasks to help ensure consistent, transparent, and effective operation of your Working Group.
 
-> **Reference Documents**
-> - [OMP Rules of Engagement](#)  
-> - [Work Package Template](#)  
-> - [Meeting Agenda Template](#)  
-> - [Meeting Minutes Template](#)  
-> - [Anti-Trust & IPR Reminder Slide](#)  
-> - [Charter Template](#)
-
 ---
 
 ## 🧭 1. Roles and Leadership
@@ -18,20 +10,20 @@ It summarizes recurring duties, requirements, and day-to-day leadership tasks to
 - [ ] Understand that the Chair has overall responsibility for effective WG management.
 - [ ] Ensure continuity: Co-Chairs can fully substitute for the Chair when needed.
 - [ ] Operate as a cohesive leadership team — unified vision, shared communication.
-- [ ] Maintain transparency across all officer communications (e.g., leadership mailing list or Teams channel).
-- [ ] Drive regular communication, delegation, and accountability among officers.
+- [ ] Maintain transparency across communications (e.g., leadership mailing list or Teams channel).
+- [ ] Drive regular communication, delegation, and accountability among participants.
 - [ ] Model fairness, openness, and impartiality in all WG matters.
 
 ---
 
 ## 📘 2. General Responsibilities
 
-- [ ] Read and follow the **OMP Rules of Engagement** and related policies.
-- [ ] Ensure all group activities comply with OMP rules; seek clarification from the parent group or ORG Officers when in doubt.
-- [ ] Familiarize yourself with **IPR** and **Anti-Trust** laws and ensure adherence in all WG activities.
-- [ ] Execute the WG charter and assigned **work packages**.
+- [ ] Read and follow the Membership Agreement, operational guidelines, and/or contribution procedures.
+- [ ] Ensure all group activities comply with rules; seek clarification from the parent group or Steering Committee when in doubt.
+- [ ] Familiarize yourself with the IPR and Anti-Trust policies, and ensure adherence in all WG activities.
+- [ ] Execute the WG charter and assigned work packages.
 - [ ] Support the parent group with delegated responsibilities and integrate work as required.
-- [ ] Inform the parent group when the WG’s work is complete and recommend closure.
+- [ ] Inform the parent group when the WG’s work is complete.
 - [ ] Coordinate with other groups or external fora (per liaison policies) and report such interactions to the parent group.
 - [ ] Uphold impartiality and confidentiality when handling member concerns.
 - [ ] Keep work package documents current and aligned with progress.
@@ -42,13 +34,13 @@ It summarizes recurring duties, requirements, and day-to-day leadership tasks to
 
 ## 🗓️ 3. Meeting Responsibilities
 
-Organize and run meetings effectively and in full compliance with OMP processes.
+Organize and run meetings effectively and in full compliance with the Project's processes.
 
 ### **Before the Meeting**
 - [ ] Issue a call for agenda items within the defined notice period.
-- [ ] Prepare and circulate an agenda in advance (use [Agenda Template](#)).
+- [ ] Prepare and circulate an agenda in advance.
 - [ ] Confirm correct participant list, time zones, and meeting access links.
-- [ ] Include **IPR and Anti-Trust** reminders at the start of every meeting deck.
+- [ ] Include IPR and Anti-Trust reminders at the start of every meeting deck.
 - [ ] Designate a note-taker or co-chair to record minutes.
 - [ ] Review GitHub issues and PRs to identify key discussion items.
 
@@ -62,8 +54,8 @@ Organize and run meetings effectively and in full compliance with OMP processes.
 - [ ] Record clear decisions, actions, and responsible parties.
 
 ### **After the Meeting**
-- [ ] Publish and circulate minutes within 5 business days (use [Minutes Template](#)).
-- [ ] Post meeting materials and recordings (if applicable) in the WG repository or Teams channel.
+- [ ] Publish and circulate minutes as soon as possible, ideally within 5 business days.
+- [ ] Post meeting materials and recordings (if applicable) in the appropriate WG workspace.
 - [ ] Update GitHub repos and project documentation promptly.
 - [ ] Report outcomes and next steps to the parent group or Steering Committee.
 - [ ] Track and follow up on assigned action items.
@@ -73,9 +65,9 @@ Organize and run meetings effectively and in full compliance with OMP processes.
 ## 🧩 4. Operational Management
 
 - [ ] Structure the WG as needed (create, modify, or close sub-groups).
-- [ ] Conduct officer elections in accordance with election procedures and maintain confidentiality.
-- [ ] Ensure the organizational chart and MS Teams membership list remain current.
-- [ ] Maintain visibility of leadership roles across OMP directories and repositories.
+- [ ] Conduct elections for key roles (if applicable) in accordance with election procedures.
+- [ ] Ensure the organizational chart and membership/participant lists remain current.
+- [ ] Maintain visibility of leadership roles across directories and repositories.
 - [ ] Monitor public GitHub issues for questions or feedback and respond in a timely manner.
 - [ ] Keep all WG records and deliverables organized, versioned, and discoverable.
 - [ ] Ensure recurring reports to parent bodies are scheduled and delivered.
@@ -84,11 +76,10 @@ Organize and run meetings effectively and in full compliance with OMP processes.
 
 ## ⚙️ 5. Technical Responsibilities
 
-- [ ] Complete **Requirements**, **Architecture**, and **Consistency** reviews.
+- [ ] Complete reviews, e.g. of Requirements, Architecture*, and/or Consistency, in a timely fashion.
 - [ ] Address all issues raised in reviews within the agreed timeline.
-- [ ] Conduct and document a **Specification Dependency Analysis**.
-- [ ] Ensure references follow the approved OMP reference policy.
-- [ ] Manage the full **Specification Development Process**, including maintenance PRs.
+- [ ] Conduct and document dependency analysis and/or update changelogs
+- [ ] Manage the full specification development process, including maintenance PRs.
 - [ ] Ensure PRs are handled in a timely manner and merged per consensus.
 - [ ] Track specification status and update the parent group on major milestones.
 
@@ -100,7 +91,7 @@ Organize and run meetings effectively and in full compliance with OMP processes.
 |------------|------|
 | **Monthly** | Review open GitHub issues and PRs; confirm work package status. |
 | **Quarterly** | Report WG progress to the parent group; review charter relevance. |
-| **Annually** | Reconfirm WG officers; evaluate need for re-chartering or closure. |
+| **Annually** | Reconfirm WG roles; evaluate need for additional work packages, re-chartering or closure. |
 
 ---
 
@@ -111,8 +102,8 @@ Organize and run meetings effectively and in full compliance with OMP processes.
 - [ ] Confirm Co-Chairs and create a leadership communication channel.
 - [ ] Review recent minutes and open issues for context.
 - [ ] Schedule an initial WG sync meeting.
-- [ ] Familiarize yourself with OMP tools: Teams, GitHub, shared drives, etc.
-- [ ] Bookmark templates and reference documents listed above.
+- [ ] Familiarize yourself with WG tools such as Slack, GitHub, shared drives, etc.
+- [ ] Bookmark relevant templates and reference documents.
 
 ---
 
