@@ -64,7 +64,7 @@ We welcome contributions to improve the clarity, accessibility, and utility of t
 
 - Please open an [issue](https://github.com/Joint-Development-Foundation/operational_template_open_standards/issues) or [pull request](https://github.com/Joint-Development-Foundation/operational_template_open_standards/pulls) if you have suggestions or improvements.
 - If you find an issue that needs to be addressed, please open an issue so we can continue to build a better template together.
-- This project operates under a [Code of Conduct](./.github/CODE_OF_CONDUCT.md).
+- This project operates under a [Code of Conduct](https://jointdevelopment.org/policies/code-of-conduct/).
 
 ---
 
