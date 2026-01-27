@@ -70,4 +70,4 @@ We welcome contributions to improve the clarity, accessibility, and utility of t
 
 ## 📄 License
 
-This template is shared under the [Creative Commons Attribution 4.0 International License](./LICENSE).
+This template is shared under the [Creative Commons Attribution 4.0 International License](./LICENSE.md).
